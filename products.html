@@ -1,0 +1,2062 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Duniya</title>
+    <link rel="icon" type="image/x-icon" href="images/dd-logo1.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <!-- start body tag -->
+
+  <body>
+    <!-- header start here -->
+    <header>
+      <div class="top-heder text-white py-3 bg-[#242f40]">
+        <div class="max-w-[1600px] px-2 mx-auto">
+          <div class="flex md:flex-row justify-between">
+            <div
+              class="dropdown inline-block relative flex md:justify-start md:mb-0 mb-3 justify-center"
+            >
+              <button class="text-white font-bold inline-flex items-center">
+                <svg
+                  class="fill-current h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                  />
+                </svg>
+                <span class="ml-1 lg:text-[16px] text-[10px]">Jaipur</span>
+              </button>
+              <ul
+                class="dropdown-menu shadow-xl absolute mt-6 z-50 hidden text-gray-700 pt-1"
+              >
+                <li class="">
+                  <a
+                    class="bg-white text-black rounded-t-sm text-[13px] hover:bg-[#FF7F00] hover:text-white py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                    >jodhpur</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="rounded-b-sm bg-white text-black text-[13px] hover:bg-[#FF7F00] hover:text-white py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                    >Delhi</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="rounded-b-sm bg-white text-black text-[13px] hover:bg-[#FF7F00] hover:text-white py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                    >Ajmer</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="md:space-x-4 space-x-2 flex">
+              <a href="" class="lg:text-[16px] text-[10px]"
+                ><i class="fa-solid fa-phone mr-2"></i>+91 (000) 000-0000</a
+              >
+              <a
+                href=" login_page.html"
+                class="lg:text-[16px] text-[10px] text-[#FF7F00]"
+              >
+                <span><i class="fa-solid text-white mr-2 fa-user"></i></span>My
+                Account
+              </a>
+
+              <a href="" class="lg:text-[16px] text-[10px]"
+                ><span></span><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+              <a href="" class="lg:text-[16px] text-[10px]"
+                ><span></span><i class="fa-solid fa-globe"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-4">
+        <nav class="px-2 bg-white border-gray-200">
+          <div
+            class="max-w-[1600px] flex lg:flex-nowrap flex-wrap items-center justify-between mx-auto"
+          >
+            <a href="index.html" class="flex items-center">
+              <img
+                src="images/logo.png"
+                class="sm:max-w-[150px] max-w-[100px]"
+                alt="DesignDuniya Logo"
+              />
+            </a>
+            <button
+              data-collapse-toggle="navbar-dropdown"
+              type="button"
+              class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-[#fff] focus:outline-none focus:ring-2 focus:ring-[#FF7F00]"
+              aria-controls="navbar-dropdown"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <i class="fa-solid text-[22px] text-[#FF7F00] fa-bars"></i>
+            </button>
+            <div class="hidden w-full lg:block lg:w-auto" id="navbar-dropdown">
+              <ul
+                class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row xl:space-x-4 lg:space-x-2 lg:mt-0 lg:text-sm lg:font-medium lg:border-0 lg:bg-white"
+              >
+                <li>
+                  <a
+                    href="index.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    aria-current="page"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="aboutus.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <button
+                    id="dropdownNavbarLink"
+                    data-dropdown-toggle="dropdownNavbar"
+                    class="flex items-center justify-between w-full py-2 pl-3 pr-4 block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                  >
+                    Services
+                    <svg
+                      class="w-5 h-5 ml-1"
+                      aria-hidden="true"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </button>
+
+                  <div
+                    id="dropdownNavbar"
+                    class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded shadow w-44"
+                  >
+                    <ul
+                      class="py-1 text-sm text-gray-700"
+                      aria-labelledby="dropdownLargeButton"
+                    >
+                      <li>
+                        <a
+                          href="professionals.html"
+                          class="block px-4 py-2 hover:bg-[#FF7F00]"
+                          >PROFESSIONALS</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="materials.html"
+                          class="block px-4 py-2 hover:bg-[#FF7F00]"
+                          >MATERIALS</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="jobs.html"
+                          class="block px-4 py-2 hover:bg-[#FF7F00]"
+                          >CAREERS</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a
+                    href="products.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >Products</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="resource-center.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >ResourceCentre</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="NEWS_RELEASES.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >Media</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="wishlist.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >Wishlist</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="contactus.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >Contact us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header start end -->
+    <!--
+      This example requires some changes to your config:
+      
+      ```
+      // tailwind.config.js
+      module.exports = {
+        // ...
+        plugins: [
+          // ...
+          require('@tailwindcss/forms'),
+        ],
+      }
+      ```
+    -->
+    <div class="bg-white">
+      <div>
+        <!--
+          Mobile filter dialog
+    
+          Off-canvas filters for mobile, show/hide based on off-canvas filters state.
+        -->
+        <div class="relative z-40 lg:hidden" role="dialog" aria-modal="true">
+          <!--
+            Off-canvas menu backdrop, show/hide based on off-canvas menu state.
+    
+            Entering: "transition-opacity ease-linear duration-300"
+              From: "opacity-0"
+              To: "opacity-100"
+            Leaving: "transition-opacity ease-linear duration-300"
+              From: "opacity-100"
+              To: "opacity-0"
+          -->
+          <div class="fixed inset-0 bg-black bg-opacity-25"></div>
+
+          <div class="fixed inset-0 z-40 flex">
+            <!--
+              Off-canvas menu, show/hide based on off-canvas menu state.
+    
+              Entering: "transition ease-in-out duration-300 transform"
+                From: "translate-x-full"
+                To: "translate-x-0"
+              Leaving: "transition ease-in-out duration-300 transform"
+                From: "translate-x-0"
+                To: "translate-x-full"
+            -->
+            <div
+              class="relative mobile-filters ml-auto flex h-full w-full max-w-xs flex-col overflow-y-auto bg-white py-4 pb-12 shadow-xl"
+            >
+              <div class="flex items-center justify-between px-4">
+                <h2 class="text-lg font-medium text-gray-900">Filters</h2>
+                <button
+                  type="button"
+                  class="-mr-2 flex h-10 w-10 items-center justify-center rounded-md bg-white p-2 text-gray-400"
+                >
+                  <span class="sr-only">Close menu</span>
+                  <!-- Heroicon name: outline/x-mark -->
+                  <svg
+                    class="h-6 w-6 close-btn"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6 18L18 6M6 6l12 12"
+                    />
+                  </svg>
+                </button>
+              </div>
+
+              <!-- Filters mobile -->
+              <form class="p-5 xl:hidden lg:block md:block sm:block block">
+                <div>
+                  <div
+                    class="flex w-full m-auto items-center h-32 justify-center"
+                  >
+                    <div class="py-1 relative min-w-full">
+                      <div class="h-2 bg-gray-200 rounded-full">
+                        <div
+                          class="absolute h-2 rounded-full bg-[#FF7F00] w-0"
+                          style="width: 24.1935%; left: 11.2903%"
+                        ></div>
+                        <div
+                          class="absolute h-4 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-300 -ml-2 top-0 cursor-pointer"
+                          unselectable="on"
+                          onselectstart="return false;"
+                          style="left: 11.2903%"
+                        >
+                          <div class="relative -mt-2 w-1">
+                            <div
+                              class="absolute z-40 opacity-100 bottom-100 mb-2 left-0 min-w-full"
+                              style="margin-left: -25px"
+                            >
+                              <div class="relative shadow-md">
+                                <div
+                                  class="bg-[#e2e2e2] -mt-8 text-black truncate text-xs rounded py-1 px-4"
+                                >
+                                  &#8377; 1500
+                                </div>
+                                <svg
+                                  class="absolute text-black w-full h-2 left-0 top-100"
+                                  x="0px"
+                                  y="0px"
+                                  viewBox="0 0 255 255"
+                                  xml:space="preserve"
+                                >
+                                  <polygon
+                                    class="fill-current"
+                                    points="0,0 127.5,127.5 255,0"
+                                  ></polygon>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="absolute h-4 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-300 -ml-2 top-0 cursor-pointer"
+                          unselectable="on"
+                          onselectstart="return false;"
+                          style="left: 35.4839%"
+                        >
+                          <div class="relative -mt-2 w-1">
+                            <div
+                              class="absolute z-40 opacity-100 bottom-100 mb-2 left-0 min-w-full"
+                              style="margin-left: -25px"
+                            >
+                              <div class="relative shadow-md">
+                                <div
+                                  class="bg-[#e2e2e2] -mt-8 text-black truncate text-xs rounded py-1 px-4"
+                                >
+                                  &#8377; 3000
+                                </div>
+                                <svg
+                                  class="absolute text-black w-full h-2 left-0 top-100"
+                                  x="0px"
+                                  y="0px"
+                                  viewBox="0 0 255 255"
+                                  xml:space="preserve"
+                                >
+                                  <polygon
+                                    class="fill-current"
+                                    points="0,0 127.5,127.5 255,0"
+                                  ></polygon>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="absolute text-gray-800 -ml-1 bottom-0 left-0 -mb-6"
+                        >
+                          &#8377; 0
+                        </div>
+                        <div
+                          class="absolute text-gray-800 -mr-1 bottom-0 right-0 -mb-6"
+                        >
+                          &#8377; 100000
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- finish filter -->
+                <h1 class="font-bold text-[20px] mt-4">Product Categories</h1>
+                <!-- Dropdown menu -->
+                <aside class="w-64" aria-label="Sidebar">
+                  <div class="overflow-y-auto py-4 px-3 rounded">
+                    <ul class="space-y-2">
+                      <li class="mb-[10px]">
+                        <button
+                          type="button"
+                          class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                          aria-controls="dropdown-example6"
+                          data-collapse-toggle="dropdown-example6"
+                        >
+                          <span
+                            class="flex-1 ml-3 text-left whitespace-nowrap"
+                            sidebar-toggle-item
+                            >Bathroom Accessories</span
+                          >
+                          <svg
+                            sidebar-toggle-item
+                            class="w-6 h-6"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </button>
+                        <ul
+                          id="dropdown-example6"
+                          class="hidden py-2 space-y-2"
+                        >
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Products
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Billing
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Invoice
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <button
+                          type="button"
+                          class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                          aria-controls="dropdown-example7"
+                          data-collapse-toggle="dropdown-example7"
+                        >
+                          <span
+                            class="flex-1 ml-3 text-left whitespace-nowrap"
+                            sidebar-toggle-item
+                            >Bathroom Accessories</span
+                          >
+                          <svg
+                            sidebar-toggle-item
+                            class="w-6 h-6"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </button>
+                        <ul
+                          id="dropdown-example7"
+                          class="hidden py-2 space-y-2"
+                        >
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Products
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Billing
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Invoice
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </aside>
+                <h1 class="font-bold text-[20px] mt-4">Product Categories</h1>
+                <!-- Dropdown menu -->
+                <aside class="w-64" aria-label="Sidebar">
+                  <div class="overflow-y-auto py-4 px-3 rounded">
+                    <ul class="space-y-2">
+                      <li class="mb-[10px]">
+                        <button
+                          type="button"
+                          class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                          aria-controls="dropdown-example8"
+                          data-collapse-toggle="dropdown-example8"
+                        >
+                          <span
+                            class="flex-1 ml-3 text-left whitespace-nowrap"
+                            sidebar-toggle-item
+                            >Bathroom Accessories</span
+                          >
+                          <svg
+                            sidebar-toggle-item
+                            class="w-6 h-6"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </button>
+                        <ul
+                          id="dropdown-example8"
+                          class="hidden py-2 space-y-2"
+                        >
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Products
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Billing
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Invoice
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <button
+                          type="button"
+                          class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                          aria-controls="dropdown-example9"
+                          data-collapse-toggle="dropdown-example9"
+                        >
+                          <span
+                            class="flex-1 ml-3 text-left whitespace-nowrap"
+                            sidebar-toggle-item
+                            >Bathroom Accessories</span
+                          >
+                          <svg
+                            sidebar-toggle-item
+                            class="w-6 h-6"
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </svg>
+                        </button>
+                        <ul
+                          id="dropdown-example9"
+                          class="hidden py-2 space-y-2"
+                        >
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Products
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Billing
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              href="#"
+                              class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            >
+                              Invoice
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </aside>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <main class="mx-auto max-w-[1600px] p-5">
+          <section aria-labelledby="products-heading" class="pt-6 pb-24">
+            <h2 id="products-heading" class="sr-only">Products</h2>
+
+            <div class="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
+              <!-- Filters  desktop-->
+              <div class="border-[#EDEEF4] border">
+                <form class="hidden p-5 xl:block">
+                  <div>
+                    <div
+                      class="flex w-full m-auto items-center h-32 justify-center"
+                    >
+                      <div class="py-1 relative min-w-full">
+                        <div class="h-2 bg-gray-200 rounded-full">
+                          <div
+                            class="absolute h-2 rounded-full bg-[#FF7F00] w-0"
+                            style="width: 24.1935%; left: 11.2903%"
+                          ></div>
+                          <div
+                            class="absolute h-4 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-300 -ml-2 top-0 cursor-pointer"
+                            unselectable="on"
+                            onselectstart="return false;"
+                            style="left: 11.2903%"
+                          >
+                            <div class="relative -mt-2 w-1">
+                              <div
+                                class="absolute z-40 opacity-100 bottom-100 mb-2 left-0 min-w-full"
+                                style="margin-left: -25px"
+                              >
+                                <div class="relative shadow-md">
+                                  <div
+                                    class="bg-[#e2e2e2] -mt-8 text-black truncate text-xs rounded py-1 px-4"
+                                  >
+                                    &#8377; 1500
+                                  </div>
+                                  <svg
+                                    class="absolute text-black w-full h-2 left-0 top-100"
+                                    x="0px"
+                                    y="0px"
+                                    viewBox="0 0 255 255"
+                                    xml:space="preserve"
+                                  >
+                                    <polygon
+                                      class="fill-current"
+                                      points="0,0 127.5,127.5 255,0"
+                                    ></polygon>
+                                  </svg>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="absolute h-4 flex items-center justify-center w-4 rounded-full bg-white shadow border border-gray-300 -ml-2 top-0 cursor-pointer"
+                            unselectable="on"
+                            onselectstart="return false;"
+                            style="left: 35.4839%"
+                          >
+                            <div class="relative -mt-2 w-1">
+                              <div
+                                class="absolute z-40 opacity-100 bottom-100 mb-2 left-0 min-w-full"
+                                style="margin-left: -25px"
+                              >
+                                <div class="relative shadow-md">
+                                  <div
+                                    class="bg-[#e2e2e2] -mt-8 text-black truncate text-xs rounded py-1 px-4"
+                                  >
+                                    &#8377; 3000
+                                  </div>
+                                  <svg
+                                    class="absolute text-black w-full h-2 left-0 top-100"
+                                    x="0px"
+                                    y="0px"
+                                    viewBox="0 0 255 255"
+                                    xml:space="preserve"
+                                  >
+                                    <polygon
+                                      class="fill-current"
+                                      points="0,0 127.5,127.5 255,0"
+                                    ></polygon>
+                                  </svg>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="absolute text-gray-800 -ml-1 bottom-0 left-0 -mb-6"
+                          >
+                            &#8377; 0
+                          </div>
+                          <div
+                            class="absolute text-gray-800 -mr-1 bottom-0 right-0 -mb-6"
+                          >
+                            &#8377; 100000
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- finish filter -->
+                  <h1 class="font-bold text-[20px] mt-4">Product Categories</h1>
+                  <!-- Dropdown menu -->
+                  <aside class="w-64" aria-label="Sidebar">
+                    <div class="overflow-y-auto py-4 px-3 rounded">
+                      <ul class="space-y-2">
+                        <li class="mb-[10px]">
+                          <button
+                            type="button"
+                            class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            aria-controls="dropdown-example"
+                            data-collapse-toggle="dropdown-example"
+                          >
+                            <span
+                              class="flex-1 ml-3 text-left whitespace-nowrap"
+                              sidebar-toggle-item
+                              >Bathroom Accessories</span
+                            >
+                            <svg
+                              sidebar-toggle-item
+                              class="w-6 h-6"
+                              fill="currentColor"
+                              viewBox="0 0 20 20"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </button>
+                          <ul
+                            id="dropdown-example"
+                            class="hidden py-2 space-y-2"
+                          >
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Products
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Billing
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Invoice
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <button
+                            type="button"
+                            class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            aria-controls="dropdown-example1"
+                            data-collapse-toggle="dropdown-example1"
+                          >
+                            <span
+                              class="flex-1 ml-3 text-left whitespace-nowrap"
+                              sidebar-toggle-item
+                              >Bathroom Accessories</span
+                            >
+                            <svg
+                              sidebar-toggle-item
+                              class="w-6 h-6"
+                              fill="currentColor"
+                              viewBox="0 0 20 20"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </button>
+                          <ul
+                            id="dropdown-example1"
+                            class="hidden py-2 space-y-2"
+                          >
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Products
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Billing
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Invoice
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </aside>
+                  <h1 class="font-bold text-[20px] mt-4">Product Categories</h1>
+                  <!-- Dropdown menu -->
+                  <aside class="w-64" aria-label="Sidebar">
+                    <div class="overflow-y-auto py-4 px-3 rounded">
+                      <ul class="space-y-2">
+                        <li class="mb-[10px]">
+                          <button
+                            type="button"
+                            class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            aria-controls="dropdown-example2"
+                            data-collapse-toggle="dropdown-example2"
+                          >
+                            <span
+                              class="flex-1 ml-3 text-left whitespace-nowrap"
+                              sidebar-toggle-item
+                              >Bathroom Accessories</span
+                            >
+                            <svg
+                              sidebar-toggle-item
+                              class="w-6 h-6"
+                              fill="currentColor"
+                              viewBox="0 0 20 20"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </button>
+                          <ul
+                            id="dropdown-example2"
+                            class="hidden py-2 space-y-2"
+                          >
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Products
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Billing
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Invoice
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li>
+                          <button
+                            type="button"
+                            class="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                            aria-controls="dropdown-example3"
+                            data-collapse-toggle="dropdown-example3"
+                          >
+                            <span
+                              class="flex-1 ml-3 text-left whitespace-nowrap"
+                              sidebar-toggle-item
+                              >Bathroom Accessories</span
+                            >
+                            <svg
+                              sidebar-toggle-item
+                              class="w-6 h-6"
+                              fill="currentColor"
+                              viewBox="0 0 20 20"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </svg>
+                          </button>
+                          <ul
+                            id="dropdown-example3"
+                            class="hidden py-2 space-y-2"
+                          >
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Products
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Billing
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href="#"
+                                class="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group hover:bg-gray-100"
+                              >
+                                Invoice
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </div>
+                  </aside>
+                </form>
+              </div>
+
+              <!-- Product grid -->
+              <div class="lg:col-span-3">
+                <!-- Replace with your content -->
+                <div class="right-main-content">
+                  <div>
+                    <img src="images/products-banner.jpg" />
+                  </div>
+                  <h3 class="mt-6 lg:text-[22px] text-[20px] font-bold">
+                    Texture & Wall Care Finishes
+                  </h3>
+                  <h5 class="font-bold text-[15px]">Super Cement</h5>
+                  <div class="flex mt-6 flex-row items-center justify-end">
+                    <button
+                      id="mr-2 dropdownDefault"
+                      data-dropdown-toggle="dropdown"
+                      class="text-black font-bold inline-flex items-center"
+                      type="button"
+                    >
+                      Sort<i
+                        class="fa-sharp fa-solid fa-chevron-down text-[#FF7F00] ml-2"
+                      ></i>
+                    </button>
+                    <!-- Dropdown menu -->
+                    <div
+                      id="dropdown"
+                      class="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow"
+                    >
+                      <ul
+                        class="py-1 text-sm text-gray-700"
+                        aria-labelledby="dropdownDefault"
+                      >
+                        <li>
+                          <a href="#" class="block py-2 px-4 hover:bg-gray-100"
+                            >Most Popular</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="block py-2 px-4 hover:bg-gray-100"
+                            >Best Rating</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="block py-2 px-4 hover:bg-gray-100"
+                            >Newest</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="block py-2 px-4 hover:bg-gray-100"
+                            >Price: Low to High</a
+                          >
+                        </li>
+                        <li>
+                          <a href="#" class="block py-2 px-4 hover:bg-gray-100"
+                            >Price: High to Low</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+
+                    <a href="" class="ml-3">
+                      <img src="images/filter.svg" class="filter w-[20px]" />
+                    </a>
+                  </div>
+                  <div
+                    class="grid lg:mt-[50px] mt-[20px] gap-[30px] lg:grid-cols-4 lg:grid-cols-3 md:grid-cols- sm:grid-cols-2"
+                  >
+                    <div class="main-products relative">
+                      <div
+                        class="border-[40px] border-[#e2e2e2] py-[30px] px-[30px]"
+                      >
+                        <a href="products_contact_seller.html">
+                          <img
+                            src="images/acc-cement-500x500.jpg"
+                            class="h-[150px] mx-auto"
+                          />
+                        </a>
+                      </div>
+                      <div class="text-center mt-4">
+                        <a
+                          href="products_contact_seller.html"
+                          class="text-black font-medium mulish-fonts mb-2 block"
+                          >Asian interior paint, white shine flash 1L</a
+                        >
+                        <div>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-4 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                        </div>
+                        <p class="text-[#ff4e35] mulish-fonts">
+                          &#8377;480.00&nbsp;<del class="text-[#cccccc]"
+                            >500.00</del
+                          >
+                        </p>
+                        <div
+                          class="w-5 absolute top-[10px] right-[10px] h-5 rounded-full p-5 text-[12px] bg-[#ff4e35] text-white flex justify-center items-center"
+                        >
+                          14%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-products relative">
+                      <div
+                        class="border-[40px] border-[#e2e2e2] py-[30px] px-[30px]"
+                      >
+                        <a href="">
+                          <img
+                            src="images/acc-cement-500x500.jpg"
+                            class="h-[150px] mx-auto"
+                          />
+                        </a>
+                      </div>
+                      <div class="text-center mt-4">
+                        <a
+                          href="#"
+                          class="text-black font-medium mulish-fonts mb-2 block"
+                          >Asian interior paint, white shine flash 1L</a
+                        >
+                        <div>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-4 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                        </div>
+                        <p class="text-[#ff4e35] mulish-fonts">
+                          &#8377;480.00&nbsp;<del class="text-[#cccccc]"
+                            >500.00</del
+                          >
+                        </p>
+                        <div
+                          class="w-5 absolute top-[10px] right-[10px] h-5 rounded-full p-5 text-[12px] bg-[#ff4e35] text-white flex justify-center items-center"
+                        >
+                          14%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-products relative">
+                      <div
+                        class="border-[40px] border-[#e2e2e2] py-[30px] px-[30px]"
+                      >
+                        <a href="">
+                          <img
+                            src="images/acc-cement-500x500.jpg"
+                            class="h-[150px] mx-auto"
+                          />
+                        </a>
+                      </div>
+                      <div class="text-center mt-4">
+                        <a
+                          href="#"
+                          class="text-black font-medium mulish-fonts mb-2 block"
+                          >Asian interior paint, white shine flash 1L</a
+                        >
+                        <div>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-4 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                        </div>
+                        <p class="text-[#ff4e35] mulish-fonts">
+                          &#8377;480.00&nbsp;<del class="text-[#cccccc]"
+                            >500.00</del
+                          >
+                        </p>
+                        <div
+                          class="w-5 absolute top-[10px] right-[10px] h-5 rounded-full p-5 text-[12px] bg-[#ff4e35] text-white flex justify-center items-center"
+                        >
+                          14%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-products relative">
+                      <div
+                        class="border-[40px] border-[#e2e2e2] py-[30px] px-[30px]"
+                      >
+                        <a href="">
+                          <img
+                            src="images/acc-cement-500x500.jpg"
+                            class="h-[150px] mx-auto"
+                          />
+                        </a>
+                      </div>
+                      <div class="text-center mt-4">
+                        <a
+                          href="#"
+                          class="text-black font-medium mulish-fonts mb-2 block"
+                          >Asian interior paint, white shine flash 1L</a
+                        >
+                        <div>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-4 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                        </div>
+                        <p class="text-[#ff4e35] mulish-fonts">
+                          &#8377;480.00&nbsp;<del class="text-[#cccccc]"
+                            >500.00</del
+                          >
+                        </p>
+                        <div
+                          class="w-5 absolute top-[10px] right-[10px] h-5 rounded-full p-5 text-[12px] bg-[#ff4e35] text-white flex justify-center items-center"
+                        >
+                          14%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-products relative">
+                      <div
+                        class="border-[40px] border-[#e2e2e2] py-[30px] px-[30px]"
+                      >
+                        <a href="">
+                          <img
+                            src="images/acc-cement-500x500.jpg"
+                            class="h-[150px] mx-auto"
+                          />
+                        </a>
+                      </div>
+                      <div class="text-center mt-4">
+                        <a
+                          href="#"
+                          class="text-black font-medium mulish-fonts mb-2 block"
+                          >Asian interior paint, white shine flash 1L</a
+                        >
+                        <div>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-4 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                        </div>
+                        <p class="text-[#ff4e35] mulish-fonts">
+                          &#8377;480.00&nbsp;<del class="text-[#cccccc]"
+                            >500.00</del
+                          >
+                        </p>
+                        <div
+                          class="w-5 absolute top-[10px] right-[10px] h-5 rounded-full p-5 text-[12px] bg-[#ff4e35] text-white flex justify-center items-center"
+                        >
+                          14%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-products relative">
+                      <div
+                        class="border-[40px] border-[#e2e2e2] py-[30px] px-[30px]"
+                      >
+                        <a href="">
+                          <img
+                            src="images/acc-cement-500x500.jpg"
+                            class="h-[150px] mx-auto"
+                          />
+                        </a>
+                      </div>
+                      <div class="text-center mt-4">
+                        <a
+                          href="#"
+                          class="text-black font-medium mulish-fonts mb-2 block"
+                          >Asian interior paint, white shine flash 1L</a
+                        >
+                        <div>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-4 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                        </div>
+                        <p class="text-[#ff4e35] mulish-fonts">
+                          &#8377;480.00&nbsp;<del class="text-[#cccccc]"
+                            >500.00</del
+                          >
+                        </p>
+                        <div
+                          class="w-5 absolute top-[10px] right-[10px] h-5 rounded-full p-5 text-[12px] bg-[#ff4e35] text-white flex justify-center items-center"
+                        >
+                          14%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-products relative">
+                      <div
+                        class="border-[40px] border-[#e2e2e2] py-[30px] px-[30px]"
+                      >
+                        <a href="">
+                          <img
+                            src="images/acc-cement-500x500.jpg"
+                            class="h-[150px] mx-auto"
+                          />
+                        </a>
+                      </div>
+                      <div class="text-center mt-4">
+                        <a
+                          href="#"
+                          class="text-black font-medium mulish-fonts mb-2 block"
+                          >Asian interior paint, white shine flash 1L</a
+                        >
+                        <div>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-4 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                        </div>
+                        <p class="text-[#ff4e35] mulish-fonts">
+                          &#8377;480.00&nbsp;<del class="text-[#cccccc]"
+                            >500.00</del
+                          >
+                        </p>
+                        <div
+                          class="w-5 absolute top-[10px] right-[10px] h-5 rounded-full p-5 text-[12px] bg-[#ff4e35] text-white flex justify-center items-center"
+                        >
+                          14%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-products relative">
+                      <div
+                        class="border-[40px] border-[#e2e2e2] py-[30px] px-[30px]"
+                      >
+                        <a href="">
+                          <img
+                            src="images/acc-cement-500x500.jpg"
+                            class="h-[150px] mx-auto"
+                          />
+                        </a>
+                      </div>
+                      <div class="text-center mt-4">
+                        <a
+                          href="#"
+                          class="text-black font-medium mulish-fonts mb-2 block"
+                          >Asian interior paint, white shine flash 1L</a
+                        >
+                        <div>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-4 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                        </div>
+                        <p class="text-[#ff4e35] mulish-fonts">
+                          &#8377;480.00&nbsp;<del class="text-[#cccccc]"
+                            >500.00</del
+                          >
+                        </p>
+                        <div
+                          class="w-5 absolute top-[10px] right-[10px] h-5 rounded-full p-5 text-[12px] bg-[#ff4e35] text-white flex justify-center items-center"
+                        >
+                          14%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-products relative">
+                      <div
+                        class="border-[40px] border-[#e2e2e2] py-[30px] px-[30px]"
+                      >
+                        <a href="">
+                          <img
+                            src="images/acc-cement-500x500.jpg"
+                            class="h-[150px] mx-auto"
+                          />
+                        </a>
+                      </div>
+                      <div class="text-center mt-4">
+                        <a
+                          href="#"
+                          class="text-black font-medium mulish-fonts mb-2 block"
+                          >Asian interior paint, white shine flash 1L</a
+                        >
+                        <div>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-4 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                        </div>
+                        <p class="text-[#ff4e35] mulish-fonts">
+                          &#8377;480.00&nbsp;<del class="text-[#cccccc]"
+                            >500.00</del
+                          >
+                        </p>
+                        <div
+                          class="w-5 absolute top-[10px] right-[10px] h-5 rounded-full p-5 text-[12px] bg-[#ff4e35] text-white flex justify-center items-center"
+                        >
+                          14%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-products relative">
+                      <div
+                        class="border-[40px] border-[#e2e2e2] py-[30px] px-[30px]"
+                      >
+                        <a href="">
+                          <img
+                            src="images/acc-cement-500x500.jpg"
+                            class="h-[150px] mx-auto"
+                          />
+                        </a>
+                      </div>
+                      <div class="text-center mt-4">
+                        <a
+                          href="#"
+                          class="text-black font-medium mulish-fonts mb-2 block"
+                          >Asian interior paint, white shine flash 1L</a
+                        >
+                        <div>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-4 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                        </div>
+                        <p class="text-[#ff4e35] mulish-fonts">
+                          &#8377;480.00&nbsp;<del class="text-[#cccccc]"
+                            >500.00</del
+                          >
+                        </p>
+                        <div
+                          class="w-5 absolute top-[10px] right-[10px] h-5 rounded-full p-5 text-[12px] bg-[#ff4e35] text-white flex justify-center items-center"
+                        >
+                          14%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="main-products relative">
+                      <div
+                        class="border-[40px] border-[#e2e2e2] py-[30px] px-[30px]"
+                      >
+                        <a href="">
+                          <img
+                            src="images/acc-cement-500x500.jpg"
+                            class="h-[150px] mx-auto"
+                          />
+                        </a>
+                      </div>
+                      <div class="text-center mt-4">
+                        <a
+                          href="#"
+                          class="text-black font-medium mulish-fonts mb-2 block"
+                          >Asian interior paint, white shine flash 1L</a
+                        >
+                        <div>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-4 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                          <span>
+                            <a href=""
+                              ><i
+                                class="fa-solid text-[#cccccc] text-[14px] mb-2 fa-star"
+                              ></i
+                            ></a>
+                          </span>
+                        </div>
+                        <p class="text-[#ff4e35] mulish-fonts">
+                          &#8377;480.00&nbsp;<del class="text-[#cccccc]"
+                            >500.00</del
+                          >
+                        </p>
+                        <div
+                          class="w-5 absolute top-[10px] right-[10px] h-5 rounded-full p-5 text-[12px] bg-[#ff4e35] text-white flex justify-center items-center"
+                        >
+                          14%
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- /End replace -->
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <!-- footer section start -->
+    <footer>
+      <section class="bg-[#232f3e] py-4 text-[#fff]">
+        <div class="max-w-[1600px] p-5 mx-auto">
+          <div
+            class="flex lg:flex-row flex-col items-center justify-between flex-col"
+          >
+            <div class="flex justify-start items-center">
+              <img src="images/top-right02.png" class="h-[50px] mr-3" />
+              <div>
+                <p
+                  class="xl:text-[22px] lg:text-[18px] text-[16px] Farro-fonts"
+                >
+                  SignUp or Newsletter
+                </p>
+                <p class="xl:text-[14px] lg:text-[12px] text-[12px]">
+                  We'll never share your email with a third party
+                </p>
+              </div>
+            </div>
+            <div class="lg:mt-0 mt-2">
+              <form class="flex justify-center items-center p-4">
+                <div class="relative">
+                  <input
+                    type="email"
+                    placeholder="Enter Your mail.."
+                    id="email"
+                    class="outline-none p-1 text-[15px] bg-[#fff] placeholder-gray focus:border-none xl:min-w-[400px] lg:min-w-[300px] min-w-[300px] rounded-sm py-3 text-black focus:shadow-none focus:outline-none px-3"
+                  />
+                  <button
+                    class="absolute right-0 top-0 py-3 bg-[#ff3c20] text-white border border-solid border-[#ff3c20] px-5 font-bold"
+                    type="submit"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div
+              class="flex lg:mt-0 mt-2 justify-end xl:space-x-4 lg:space-x-4 space-x-2"
+            >
+              <a
+                class="mr-3 xl:text-[16px] text-[14px] hover:text-[#FF7F00]"
+                href=""
+              >
+                <span
+                  ><i
+                    class="fa-brands md:text-left text-center fa-facebook-f mr-2"
+                  ></i></span
+                >Facebook
+              </a>
+              <a
+                class="mr-3 xl:text-[16px] text-[14px] hover:text-[#FF7F00]"
+                href=""
+              >
+                <span
+                  ><i
+                    class="fa-brands md:text-left text-center fa-twitter mr-2"
+                  ></i></span
+                >twitter
+              </a>
+              <a
+                class="mr-3 xl:text-[16px] text-[14px] hover:text-[#FF7F00]"
+                href=""
+              >
+                <span
+                  ><i
+                    class="fa-brands md:text-left text-centerfa-linkedin-in mr-2"
+                  ></i></span
+                >linkedin
+              </a>
+              <a
+                class="xl:text-[16px] text-[14px] hover:text-[#FF7F00]"
+                href=""
+              >
+                <span
+                  ><i
+                    class="fa-brands md:text-left text-center fa-instagram mr-2"
+                  ></i></span
+                >instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        class="max-w-[1600px] px-5 py-10 mx-auto flex md:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+      >
+        <div
+          class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left"
+        >
+          <a href="#" class="flex md:justify-start justify-center items-center">
+            <img src="images/logo.png" class="" alt="DesignDuniya Logo" />
+          </a>
+
+          <p class="mt-4 text-[16px] text-black leading-7">
+            Design Dunia is a full – service architecture, Interior Design,
+            Landscape Design, Planning firm which works at all scale and
+            magnitude across anywhere in the world.
+          </p>
+        </div>
+        <div
+          class="flex-grow flex flex-wrap lg:pl-10 -mb-10 md:mt-0 mt-10 md:text-left text-center"
+        >
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+            <h2 class="font-bold mb-3 uppercase">daily updates</h2>
+            <nav class="list-none mb-10">
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Price Online</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Price Today</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">List Of Cement Brands</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Best Quality Cement</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">TMT Steel Bars Online</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Best TMT Steel Brands</a>
+              </li>
+            </nav>
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+            <h2 class="font-bold mb-3 uppercase">Popular Serches</h2>
+            <nav class="list-none mb-10">
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Ultratech Cement Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a href="" class="text-gray-400">Birla A1 Cement Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Wholesale Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Building Materials Online</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Price In Hyderabad</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Construction Services Online</a>
+              </li>
+            </nav>
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+            <h2 class="font-bold mb-3 uppercase">Company</h2>
+            <nav class="list-none mb-10">
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Ultratech Cement Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Birla A1 Cement Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Wholesale Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Building Materials Online</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Price In Hyderabad</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Construction Services Online</a>
+              </li>
+            </nav>
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+            <div class="text-[16px] mb-3 flex items-center WorkSfonts gap-2">
+              <img
+                src="images/footer-icon/location.png"
+                class="text-left w-[30px] mr-3"
+              />
+              <p class="text-left">
+                Plot No 92, 64, Patel Marg, Mansarovar Sector 9, Jaipur,
+                Rajasthan 302020
+              </p>
+            </div>
+            <div class="mb-3 flex items-center gap-2 WorkSfonts">
+              <img src="images/footer-icon/support.png" class="w-[30px] mr-3" />
+              <a href="" class="text-[16px] hover:text-[#FF7F00]"
+                >+91-9982507555</a
+              >
+            </div>
+            <div class="mb-3 flex items-center gap-2 WorkSfonts">
+              <img src="images/footer-icon/open.png" class="w-[30px] mr-3" />
+              <a href="" class="text-[16px] hover:text-[#FF7F00]"
+                >contactdesigndunia.com</a
+              >
+            </div>
+            <div class="text-[16px] mb-3 flex items-center WorkSfonts gap-2">
+              <img src="images/footer-icon/clock.png" class="w-[30px] mr-3" />
+              <p class="text-left">Open Time: 10:00AM - 7:00PM</p>
+            </div>
+            <div class="bg-[#E8E8E8] mt-8 py-2 px-2 text-center rounded-sm">
+              <span class="text-[16px] text-[#FF7F00] font-bold"
+                >Resource Center</span
+              ><a href="" class="ml-2 font-bold hover:text-[#FF7F00]"
+                >0141-358-2638</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-[1600px] p-5 mx-auto">
+        <div class="border-t border-t-[#000]">
+          <div
+            class="container mx-auto items-center py-6 flex flex-wrap flex-col sm:flex-row"
+          >
+            <p class="text-black text-sm text-center sm:text-left">
+              © 2021 Design Dunia All rights reserved
+            </p>
+            <span
+              class="inline-flex items-center gap-3 sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
+            >
+              <a class="" href="">
+                <img
+                  src="images/footer-icon/paypal_PNG4.png"
+                  class="w-[60px]"
+                />
+              </a>
+              <a class="" href="">
+                <img
+                  src="images/footer-icon/MasterCard_early_1990s_logo.png"
+                  class="w-[60px]"
+                />
+              </a>
+              <a class="" href="">
+                <img src="images/footer-icon/Visa_Logo.png" class="w-[60px]" />
+              </a>
+              <a class="" href="">
+                <img
+                  src="images/footer-icon/American-Express-PNG-Image.png"
+                  class="w-[60px]"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section start -->
+
+    <!-- important js links here -->
+    <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- important js links here end -->
+  </body>
+  <!-- End bofy tag -->
+  <script>
+    $(document).ready(function () {
+      $(".close-btn").click(function () {
+        $(".mobile-filters").hide();
+      });
+      $(".filter").click(function () {
+        $(".mobile-filters").show();
+      });
+    });
+  </script>
+</html>

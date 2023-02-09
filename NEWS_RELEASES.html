@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design Duniya</title>
+    <link rel="icon" type="image/x-icon" href="images/dd-logo1.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="images/dd-logo1.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <!-- start body tag -->
+
+  <body>
+    <!-- header start here -->
+    <header>
+      <div class="top-heder text-white py-3 bg-[#242f40]">
+        <div class="max-w-[1600px] px-2 mx-auto">
+          <div class="flex md:flex-row justify-between">
+            <div
+              class="dropdown inline-block relative flex md:justify-start md:mb-0 mb-3 justify-center"
+            >
+              <button class="text-white font-bold inline-flex items-center">
+                <svg
+                  class="fill-current h-4 w-4"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"
+                  />
+                </svg>
+                <span class="ml-1 lg:text-[16px] text-[10px]">Jaipur</span>
+              </button>
+              <ul
+                class="dropdown-menu shadow-xl absolute mt-6 z-50 hidden text-gray-700 pt-1"
+              >
+                <li class="">
+                  <a
+                    class="bg-white text-black rounded-t-sm text-[13px] hover:bg-[#FF7F00] hover:text-white py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                    >jodhpur</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="rounded-b-sm bg-white text-black text-[13px] hover:bg-[#FF7F00] hover:text-white py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                    >Delhi</a
+                  >
+                </li>
+                <li class="">
+                  <a
+                    class="rounded-b-sm bg-white text-black text-[13px] hover:bg-[#FF7F00] hover:text-white py-2 px-4 block whitespace-no-wrap"
+                    href="#"
+                    >Ajmer</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="md:space-x-4 space-x-2 flex">
+              <a href="" class="lg:text-[16px] text-[10px]"
+                ><i class="fa-solid fa-phone mr-2"></i>+91 (000) 000-0000</a
+              >
+              <a
+                href=" login_page.html"
+                class="lg:text-[16px] text-[10px] text-[#FF7F00]"
+              >
+                <span><i class="fa-solid text-white mr-2 fa-user"></i></span>My
+                Account
+              </a>
+
+              <a href="" class="lg:text-[16px] text-[10px]"
+                ><span></span><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+              <a href="" class="lg:text-[16px] text-[10px]"
+                ><span></span><i class="fa-solid fa-globe"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="py-4">
+        <nav class="px-2 bg-white border-gray-200">
+          <div
+            class="max-w-[1600px] flex lg:flex-nowrap flex-wrap items-center justify-between mx-auto"
+          >
+            <a href="index.html" class="flex items-center">
+              <img
+                src="images/logo.png"
+                class="sm:max-w-[150px] max-w-[100px]"
+                alt="DesignDuniya Logo"
+              />
+            </a>
+            <button
+              data-collapse-toggle="navbar-dropdown"
+              type="button"
+              class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-[#fff] focus:outline-none focus:ring-2 focus:ring-[#FF7F00]"
+              aria-controls="navbar-dropdown"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <i class="fa-solid text-[22px] text-[#FF7F00] fa-bars"></i>
+            </button>
+            <div class="hidden w-full lg:block lg:w-auto" id="navbar-dropdown">
+              <ul
+                class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row xl:space-x-4 lg:space-x-2 lg:mt-0 lg:text-sm lg:font-medium lg:border-0 lg:bg-white"
+              >
+                <li>
+                  <a
+                    href="index.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    aria-current="page"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="aboutus.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >About Us</a
+                  >
+                </li>
+                <li>
+                  <button
+                    id="dropdownNavbarLink"
+                    data-dropdown-toggle="dropdownNavbar"
+                    class="flex items-center justify-between w-full py-2 pl-3 pr-4 block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                  >
+                    Services
+                    <svg
+                      class="w-5 h-5 ml-1"
+                      aria-hidden="true"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </button>
+
+                  <div
+                    id="dropdownNavbar"
+                    class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded shadow w-44"
+                  >
+                    <ul
+                      class="py-1 text-sm text-gray-700"
+                      aria-labelledby="dropdownLargeButton"
+                    >
+                      <li>
+                        <a
+                          href="professionals.html"
+                          class="block px-4 py-2 hover:bg-[#FF7F00]"
+                          >PROFESSIONALS</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="materials.html"
+                          class="block px-4 py-2 hover:bg-[#FF7F00]"
+                          >MATERIALS</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="jobs.html"
+                          class="block px-4 py-2 hover:bg-[#FF7F00]"
+                          >CAREERS</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li>
+                  <a
+                    href="products.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >Products</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="resource-center.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >ResourceCentre</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="NEWS_RELEASES.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >Media</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="wishlist.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >Wishlist</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="contactus.html"
+                    class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                    >Contact us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- header start end -->
+
+    <main>
+      <div class="my-[50px]">
+        <div class="mb-[50px]">
+          <img class="w-full h-auto" src="images/Rectangle .png" alt="" />
+        </div>
+      </div>
+
+      <div class="max-w-[1600px] p-5 my-5 mx-auto border-b border-black">
+        <h1 class="lg:text-[45px] text-[30px] font-bold pb-12 font-bold">
+          NEWS RELEASES
+        </h1>
+        <form>
+          <div class="flex md:flex-row flex-col max-w-[1600px] mx-auto">
+            <a
+              class="py-[10px] mulish-fonts xl:px-[45px] lg:px-[25px] hover:text-white md:px-[15px] px-[10px] border border-[#000] lg:text-[20px] text-[15px] bg-[#FF7F00] border-[#9C9999]"
+              href="#"
+              >2022</a
+            >
+
+            <a
+              class="py-[10px] mulish-fonts xl:px-[45px] lg:px-[25px] hover:text-white md:px-[15px] px-[10px] border border-[#000] lg:text-[20px] text-[15px] hover:bg-[#FF7F00] bg-[#fff] border-[#9C9999] shadow"
+              href="#"
+            >
+              2021
+            </a>
+            <a
+              class="py-[10px] mulish-fonts xl:px-[45px] lg:px-[25px] hover:text-white md:px-[15px] px-[10px] border border-[#000] lg:text-[20px] text-[15px] hover:bg-[#FF7F00] bg-[#fff] border-[#9C9999] shadow"
+              href="#"
+            >
+              2020
+            </a>
+            <a
+              class="py-[10px] mulish-fonts xl:px-[45px] lg:px-[25px] hover:text-white md:px-[15px] px-[10px] border border-[#000] lg:text-[20px] text-[15px] hover:bg-[#FF7F00] bg-[#fff] border-[#9C9999] shadow"
+              href="#"
+            >
+              2019
+            </a>
+            <a
+              class="py-[10px] mulish-fonts xl:px-[45px] lg:px-[25px] hover:text-white md:px-[15px] px-[10px] border border-[#000] lg:text-[20px] text-[15px] hover:bg-[#FF7F00] bg-[#fff] border-[#9C9999] shadow"
+              href="#"
+            >
+              2018
+            </a>
+            <a
+              class="py-[10px] mulish-fonts xl:px-[45px] lg:px-[25px] hover:text-white md:px-[15px] px-[10px] border border-[#000] lg:text-[20px] text-[15px] hover:bg-[#FF7F00] bg-[#fff] border-[#9C9999] shadow"
+              href="#"
+            >
+              2017
+            </a>
+            <a
+              class="py-[10px] mulish-fonts xl:px-[45px] lg:px-[25px] hover:text-white md:px-[15px] px-[10px] border border-[#000] lg:text-[20px] text-[15px] hover:bg-[#FF7F00] bg-[#fff] border-[#9C9999] shadow"
+              href="#"
+            >
+              2016
+            </a>
+            <a
+              class="py-[10px] mulish-fonts xl:px-[45px] lg:px-[25px] hover:text-white md:px-[15px] px-[10px] border border-[#000] lg:text-[20px] text-[15px] hover:bg-[#FF7F00] bg-[#fff] border-[#9C9999] shadow"
+              href="#"
+            >
+              archive
+            </a>
+          </div>
+          <div class="flex md:flex-row flex-col my-16">
+            <div class="md:w-[40%] w-full">
+              <label
+                for="default-search"
+                class="mb-2 text-sm font-medium text-gray-900 sr-only"
+                >Search</label
+              >
+              <div class="relative">
+                <div
+                  class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="w-5 h-5 text-gray-500"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  type="search"
+                  id="default-search"
+                  class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 bg-gray-50 focus:ring-blue-500 focus:border-blue-500"
+                  placeholder="Search News Releases..."
+                  required
+                />
+                <button
+                  type="submit"
+                  class="text-black absolute right-0 bottom-0 bg-[#FF7F00] lg:text-xl text-sm lg:px-[40px] px-4 lg:py-[13px] py-[17px]"
+                >
+                  Search
+                </button>
+              </div>
+            </div>
+            <div class="md:w-[25%] w-full md:ml-6 ml-0 md:mt-0 mt-4">
+              <select
+                id="countries"
+                class="bg-[#fff] border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full py-3.5 px-2"
+              >
+                <option selected>Date Descending</option>
+                <option value="US">Date Descending</option>
+                <option value="CA">Date Descending</option>
+                <option value="FR">Date Descending</option>
+                <option value="DE">Date Descending</option>
+              </select>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="max-w-[1600px] p-5 my-5 mx-auto">
+        <div class="flex md:flex-row flex-col justify-between">
+          <div class="new md:w-[30%] md:my-0 my-8 w-full">
+            <div class="relative">
+              <img src="images/Rectangle 237.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+          <div class="new md:w-[30%] md:my-0 my-8 w-full">
+            <div class="relative">
+              <img src="images/Rectangle 239.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+
+          <div class="new md:w-[30%] md:my-0 my-8 w-full">
+            <div class="relative">
+              <img src="images/Rectangle 241.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-[1600px] p-5 my-5 mx-auto">
+        <div class="flex md:flex-row flex-col justify-between">
+          <div class="new md:w-[30%] w-full">
+            <div class="relative">
+              <img src="images/Rectangle 237.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+          <div class="new md:w-[30%] md:my-0 my-8 w-full">
+            <div class="relative">
+              <img src="images/Rectangle 239.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+
+          <div class="new md:w-[30%] md:my-0 my-8 w-full">
+            <div class="relative">
+              <img src="images/Rectangle 241.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-[1600px] p-5 my-5 mx-auto">
+        <div class="flex md:flex-row flex-col justify-between">
+          <div class="new md:w-[30%] w-full">
+            <div class="relative">
+              <img src="images/Rectangle 237.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+          <div class="new md:w-[30%] md:my-0 my-8 w-full">
+            <div class="relative">
+              <img src="images/Rectangle 239.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+
+          <div class="new md:w-[30%] md:my-0 my-8 w-full">
+            <div class="relative">
+              <img src="images/Rectangle 241.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="max-w-[1600px] p-5 my-5 mx-auto">
+        <div class="flex md:flex-row flex-col justify-between">
+          <div class="new md:w-[30%] w-full">
+            <div class="relative">
+              <img src="images/Rectangle 237.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+          <div class="new md:w-[30%] md:my-0 my-8 w-full">
+            <div class="relative">
+              <img src="images/Rectangle 239.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+
+          <div class="new md:w-[30%] md:my-0 my-8 w-full">
+            <div class="relative">
+              <img src="images/Rectangle 241.png" alt="" class="w-full" />
+              <div
+                class="absolute bg-[#FF7F00] py-[10px] w-full text-center bottom-0 left-0"
+              >
+                <a
+                  class="text-[#fff] lg:text-[20px] text-[15px] font-medium Farro-fonts px-4"
+                  href=""
+                  >Master These Awsome Skills
+                </a>
+              </div>
+            </div>
+            <div class="mt-[20px] text-left">
+              <p class="text-[16px] font-medium">
+                <span class="pr-[10px]"
+                  ><i class="fa-solid fa-calendar"></i
+                ></span>
+                Nov 30, 2022
+              </p>
+              <p class="lg:text-[16px] text-[14px] pt-3">
+                Projects for many large domestic and foreign corporations,
+                enterprises in many elds such as nance, banking, F&B, education,
+                communication.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center my-12">
+        <a
+          class="py-[10px] lg:px-[30px] px-[10px] bg-[#fff] shadow border border-[#000] lg:text-[20px] text-[15px] rounded-[15px]"
+          href=""
+          >LOAD MORE NEWS RELEASES</a
+        >
+      </div>
+    </main>
+
+    <!-- footer section start -->
+    <footer>
+      <section class="bg-[#232f3e] py-4 text-[#fff]">
+        <div class="max-w-[1600px] p-5 mx-auto">
+          <div
+            class="flex lg:flex-row flex-col items-center justify-between flex-col"
+          >
+            <div class="flex justify-start items-center">
+              <img src="images/top-right02.png" class="h-[50px] mr-3" />
+              <div>
+                <p
+                  class="xl:text-[22px] lg:text-[18px] text-[16px] Farro-fonts"
+                >
+                  SignUp or Newsletter
+                </p>
+                <p class="xl:text-[14px] lg:text-[12px] text-[12px]">
+                  We'll never share your email with a third party
+                </p>
+              </div>
+            </div>
+            <div class="lg:mt-0 mt-2">
+              <form class="flex justify-center items-center p-4">
+                <div class="relative">
+                  <input
+                    type="email"
+                    placeholder="Enter Your mail.."
+                    id="email"
+                    class="outline-none p-1 text-[15px] bg-[#fff] placeholder-gray focus:border-none xl:min-w-[400px] lg:min-w-[300px] min-w-[300px] rounded-sm py-3 text-black focus:shadow-none focus:outline-none px-3"
+                  />
+                  <button
+                    class="absolute right-0 top-0 py-3 bg-[#ff3c20] text-white border border-solid border-[#ff3c20] px-5 font-bold"
+                    type="submit"
+                  >
+                    Subscribe
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div
+              class="flex lg:mt-0 mt-2 justify-end xl:space-x-4 lg:space-x-4 space-x-2"
+            >
+              <a
+                class="mr-3 xl:text-[16px] text-[14px] hover:text-[#FF7F00]"
+                href="https://www.facebook.com/"
+              >
+                <span
+                  ><i
+                    class="fa-brands md:text-left text-center fa-facebook-f mr-2"
+                  ></i></span
+                >Facebook
+              </a>
+              <a
+                class="mr-3 xl:text-[16px] text-[14px] hover:text-[#FF7F00]"
+                href="https://www.twitter.com/"
+              >
+                <span
+                  ><i
+                    class="fa-brands md:text-left text-center fa-twitter mr-2"
+                  ></i></span
+                >twitter
+              </a>
+              <a
+                class="mr-3 xl:text-[16px] text-[14px] hover:text-[#FF7F00]"
+                href="https://www.linkedin.com/"
+              >
+                <span
+                  ><i
+                    class="fa-brands md:text-left text-centerfa-linkedin-in mr-2"
+                  ></i></span
+                >linkedin
+              </a>
+              <a
+                class="xl:text-[16px] text-[14px] hover:text-[#FF7F00]"
+                href="https://www.instagram.com/"
+              >
+                <span
+                  ><i
+                    class="fa-brands md:text-left text-center fa-instagram mr-2"
+                  ></i></span
+                >instagram
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        class="max-w-[1600px] px-5 py-10 mx-auto flex md:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+      >
+        <div
+          class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left"
+        >
+          <a href="#" class="flex md:justify-start justify-center items-center">
+            <img src="images/logo.png" class="" alt="DesignDuniya Logo" />
+          </a>
+
+          <p class="mt-4 text-[16px] text-black leading-7">
+            Design Dunia is a full - service architecture, Interior Design,
+            Landscape Design, Planning firm which works at all scale and
+            magnitude across anywhere in the world.
+          </p>
+        </div>
+        <div
+          class="flex-grow flex flex-wrap lg:pl-10 -mb-10 md:mt-0 mt-10 md:text-left text-center"
+        >
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+            <h2 class="font-bold mb-3 uppercase">daily updates</h2>
+            <nav class="list-none mb-10">
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Price Online</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Price Today</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">List Of Cement Brands</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Best Quality Cement</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">TMT Steel Bars Online</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Best TMT Steel Brands</a>
+              </li>
+            </nav>
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+            <h2 class="font-bold mb-3 uppercase">Popular Serches</h2>
+            <nav class="list-none mb-10">
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Ultratech Cement Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a href="" class="text-gray-400">Birla A1 Cement Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Wholesale Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Building Materials Online</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Price In Hyderabad</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Construction Services Online</a>
+              </li>
+            </nav>
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+            <h2 class="font-bold mb-3 uppercase">Company</h2>
+            <nav class="list-none mb-10">
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Ultratech Cement Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Birla A1 Cement Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Wholesale Price</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Building Materials Online</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Cement Price In Hyderabad</a>
+              </li>
+              <li class="mb-3 WorkSfonts">
+                <a class="text-gray-400">Construction Services Online</a>
+              </li>
+            </nav>
+          </div>
+          <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+            <div class="text-[16px] mb-3 flex items-center WorkSfonts gap-2">
+              <img
+                src="images/footer-icon/location.png"
+                class="text-left w-[30px] mr-3"
+              />
+              <p class="text-left">
+                Plot No 92, 64, Patel Marg, Mansarovar Sector 9, Jaipur,
+                Rajasthan 302020
+              </p>
+            </div>
+            <div class="mb-3 flex items-center gap-2 WorkSfonts">
+              <img src="images/footer-icon/support.png" class="w-[30px] mr-3" />
+              <a href="" class="text-[16px] hover:text-[#FF7F00]"
+                >+91-9982507555</a
+              >
+            </div>
+            <div class="mb-3 flex items-center gap-2 WorkSfonts">
+              <img src="images/footer-icon/open.png" class="w-[30px] mr-3" />
+              <a href="" class="text-[16px] hover:text-[#FF7F00]"
+                >contactdesigndunia.com</a
+              >
+            </div>
+            <div class="text-[16px] mb-3 flex items-center WorkSfonts gap-2">
+              <img src="images/footer-icon/clock.png" class="w-[30px] mr-3" />
+              <p class="text-left">Open Time: 10:00AM - 7:00PM</p>
+            </div>
+            <div class="bg-[#E8E8E8] mt-8 py-2 px-2 text-center rounded-sm">
+              <span class="text-[16px] text-[#FF7F00] font-bold"
+                >Resource Center</span
+              ><a href="" class="ml-2 font-bold hover:text-[#FF7F00]"
+                >0141-358-2638</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="max-w-[1600px] p-5 mx-auto">
+        <div class="border-t border-t-[#000]">
+          <div
+            class="container mx-auto items-center py-6 flex flex-wrap flex-col sm:flex-row"
+          >
+            <p class="text-black text-sm text-center sm:text-left">
+              © 2021 Design Dunia All rights reserved
+            </p>
+            <span
+              class="inline-flex items-center gap-3 sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start"
+            >
+              <a class="" href="">
+                <img
+                  src="images/footer-icon/paypal_PNG4.png"
+                  class="w-[60px]"
+                />
+              </a>
+              <a class="" href="">
+                <img
+                  src="images/footer-icon/MasterCard_early_1990s_logo.png"
+                  class="w-[60px]"
+                />
+              </a>
+              <a class="" href="">
+                <img src="images/footer-icon/Visa_Logo.png" class="w-[60px]" />
+              </a>
+              <a class="" href="">
+                <img
+                  src="images/footer-icon/American-Express-PNG-Image.png"
+                  class="w-[60px]"
+                />
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section start -->
+
+    <!-- important js links here -->
+    <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <!-- important js links here end -->
+  </body>
+  <!-- End bofy tag -->
+</html>

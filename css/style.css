@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&family=Magra:wght@400;700&family=Marcellus+SC&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Reem+Kufi:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+ /* @font-face {
+    font-family: "AHUM521B";
+    src: url(../fonts/AHUM521B.TTF);
+} */
+/* @font-face {
+    font-family: "GoshaSans";
+    src: url(../fonts/GoshaSans-Regular.otf);
+}  */
+body{
+   font-family: 'Roboto', sans-serif; 
+}
+.mulish-fonts{
+    font-family: 'Mulish', sans-serif;
+}
+
+
+.WorkSfonts{
+    font-family: 'Work Sans', sans-serif;
+}
+.AHUM-font{
+     font-family: "Roboto";
+     font-style: italic;
+}
+.Marcellus-fonts{
+    font-family: 'Marcellus SC', serif;
+}
+.Magra-fonts{
+    font-family: 'Magra', sans-serif;
+}
+.Farro-fonts{
+    font-family: 'Farro', sans-serif;
+}
+.slick-dots li button:before{
+    font-size: 0!important;
+}
+.slick-dots{
+ margin-top: 60px;
+}
+.slick-dots li{
+    background-color: #C4C4C4!important;
+    border-radius: 50px;
+    width: 20px;
+    height: 20px;
+   
+}
+.slick-dots .slick-active{
+      background-color: #FF7F00!important;
+      width: 20px;
+      height: 20px;
+}
+
+.products-1 .slick-dots {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    top: -68px!important;
+    width: 100%;
+    padding: 0;
+    right: -100px;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.products-1 .slick-dots li{
+    background-color: #222222!important;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+   
+}
+.faq button[aria-expanded="true"]{
+background-color: transparent;
+}
+.faq button[aria-expanded="false"]{
+    outline: none;
+}
+.products-1 .slick-dots .slick-active{
+      background-color: #ff3c20!important;
+      width: 30px;
+}
+
+
+
+
+
+.divider-red{
+    position: relative;
+    width: 90%;
+}
+.divider-red::before{
+content: '';
+width: 50%;
+height: 2px;
+background-color: red;
+position:absolute;
+left: 0;
+top: 0;
+
+}
+
+.reem-font{
+    font-family: 'Reem Kufi', sans-serif;
+}
+nav a{
+    font-family: 'Reem Kufi', sans-serif;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+nav a:hover,#dropdownNavbarLink:hover{
+    color: #fff!important;
+    
+}
+button[ aria-selected="true"]{
+color: #FF7F00!important;
+font-weight: bold;
+}
+
+ .slick-slide {
+      margin: 0 20px;
+  }
+  .slick-list {
+      margin: 0 -20px;
+  }
+
+
+  .arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 70px solid transparent;
+  border-bottom: 70px solid transparent;
+  border-right:70px solid #FF7F00; 
+  transform: rotate(45deg);
+}
+
+.arrow-black {
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-right:60px solid #000; 
+  transform: rotate(45deg);
+}
+
+.offer-colm-one{
+  clip-path: polygon(0 0, 36% 0, 63% 100%, 0% 100%);
+  background: #ff7f00;
+}
+.experice-colm-one{
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+  background: #ff7f00;
+}
+
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background: url("http://digital.bnint.com/filelib/s9/photos/white_wood_4500x3000_lo_res.jpg");
+}
+
+.carousel {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+    
+}
+.heros-slider ::placeholder{
+    font-size: 12px;
+    color: #000;
+}
+
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-open:checked + .carousel-item {
+    position: static;
+    opacity: 100;
+}
+
+.carousel-item {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+
+.carousel-item img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+[type=radio]:checked{
+    appearance: none;
+}
+.carousel-control {
+  
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+    font-size: 40px;
+    height: 40px;
+    line-height: 35px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+    cursor: pointer;
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    text-align: center;
+    width: 40px;
+    z-index: 10;
+}
+
+.carousel-control.prev {
+    left: 2%;
+}
+
+.carousel-control.next {
+    right: 2%;
+}
+
+.carousel-control:hover {
+    background: rgba(0, 0, 0, 0.8);
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1,
+#carousel-2:checked ~ .control-2,
+#carousel-3:checked ~ .control-3 {
+    display: block;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.carousel-bullet {
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 35px;
+}
+
+.carousel-bullet:hover {
+    color: #aaaaaa;
+}
+
+#carousel-1:checked ~ .control-1 ~ .carousel-indicators li:nth-child(1) .carousel-bullet,
+#carousel-2:checked ~ .control-2 ~ .carousel-indicators li:nth-child(2) .carousel-bullet,
+#carousel-3:checked ~ .control-3 ~ .carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #428bca;
+}
+
+#title {
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 27px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', sans-serif;
+    z-index: 9999;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
+}
+
+.consult-now ::placeholder{
+  font-size: 22px;
+  color: #989797;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+footer li a:hover{
+color: #FF7F00!important;
+cursor: pointer;
+}
+
+.contact-us ::placeholder{
+    font-size: 18px;
+    color: #9C9B9B;
+}
+.propert-sec ::placeholder{
+ font-size: 20px!important;
+ color: #9C9B9B;
+}
+
+.propert-sec button[aria-selected="true"]{
+  background-color: #FF7F00!important;
+  color: #000!important;
+
+}
+.arrow-down-p {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #FF7F00;
+}
+
+.Testimonials.slick-slider .slick-track, .Testimonials.slick-slider .slick-list {
+   
+    padding-top: 40px!important;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+  input[type='number']::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .custom-number-input input:focus {
+    outline: none !important;
+  }
+
+  .custom-number-input button:focus {
+    outline: none !important;
+  }
+/*  
+  .slick-prev:before {
+   font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f053";
+  color: #0674BB;
+  font-size: 25px;
+  font-weight:900;
+}
+
+.slick-next:before {
+ content: ">"; 
+  font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+  color: #0674BB;
+  font-weight:900;
+  font-size: 25px;
+  
+
+}
+.slick-next ,.slick-prev{
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border-radius: 50px;
+  border: 2px solid #0674BB;
+  bottom: 0;
+  top: 100%;
+  margin-top: 100px;
+}
+.slick-prev{
+    left: 45%;
+}
+.slick-next{
+    right: 45%;
+} */
+ @media (max-width:1360px) {
+
+.offer-colm-one{
+  clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+  background: #ff7f00;
+}
+.divider-red{
+    position: relative;
+    width: 60%;
+}
+
+}
+.products-1 .slick-dots {
+   
+    right: -22px;
+ }
+ @media (max-width:1024px) {
+
+.offer-colm-one{
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  background: #ff7f00;
+}
+.experice-colm-one{
+  clip-path: polygon(0 0, 80% 0, 100% 100%, 0% 100%);
+  background: transparent
+}
+}
+
+@media (max-width:768px) {
+.offer-colm-one{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  background: #ff7f00;
+}
+.experice-colm-one{
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  background: transparent;
+}
+.divider-red{
+    position: relative;
+    width: 100%;
+}
+
+
+.products-1 .slick-dots {
+   
+    right: -80px;
+ 
+}
+.heros-slider .carousel-item img{
+    min-height: 250px;
+}
+}
+
+@media (max-width:992px) {
+
+
+.consult-now ::placeholder{
+  font-size: 15px;
+  color: #989797;
+}
+}

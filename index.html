@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Design Duniya</title>
+        <link rel="icon" type="image/x-icon" href="images/dd-logo1.png" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
+        <link rel="icon" type="image/x-icon" href="images/dd-logo1.png" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="css/animate.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <!-- start body tag -->
+
+    <body>
+        <!-- header start here -->
+        <header>
+            <div class="top-heder text-white py-3 bg-[#242f40]">
+                <div class="max-w-[1600px] px-2 mx-auto">
+                    <div class="flex md:flex-row justify-between">
+                        <div class="dropdown inline-block relative flex md:justify-start md:mb-0 mb-3 justify-center">
+                            <button class="text-white font-bold inline-flex items-center">
+                                <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                                </svg>
+                                <span class="ml-1 lg:text-[16px] text-[10px]">Jaipur</span>
+                            </button>
+                            <ul class="dropdown-menu shadow-xl absolute mt-6 z-50 hidden text-gray-700 pt-1">
+                                <li class="">
+                                    <a class="bg-white text-black rounded-t-sm text-[13px] hover:bg-[#FF7F00] hover:text-white py-2 px-4 block whitespace-no-wrap" href="#">jodhpur</a>
+                                </li>
+                                <li class="">
+                                    <a class="rounded-b-sm bg-white text-black text-[13px] hover:bg-[#FF7F00] hover:text-white py-2 px-4 block whitespace-no-wrap" href="#">Delhi</a>
+                                </li>
+                                <li class="">
+                                    <a class="rounded-b-sm bg-white text-black text-[13px] hover:bg-[#FF7F00] hover:text-white py-2 px-4 block whitespace-no-wrap" href="#">Ajmer</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="md:space-x-4 space-x-2 flex">
+                            <a href="" class="lg:text-[16px] text-[10px]"><i class="fa-solid fa-phone mr-2"></i>+91 (000) 000-0000</a>
+                            <a href=" login_page.html" class="lg:text-[16px] text-[10px] text-[#FF7F00]">
+                                <span><i class="fa-solid text-white mr-2 fa-user"></i></span>My Account
+                            </a>
+
+                            <a href="" class="lg:text-[16px] text-[10px]"><span></span><i class="fa-solid fa-cart-shopping"></i></a>
+                            <a href="" class="lg:text-[16px] text-[10px]"><span></span><i class="fa-solid fa-globe"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="py-4">
+                <nav class="px-2 bg-white border-gray-200">
+                    <div class="max-w-[1600px] flex lg:flex-nowrap flex-wrap items-center justify-between mx-auto">
+                        <a href="" class="flex items-center">
+                            <img src="images/logo.png" class="sm:max-w-[150px] max-w-[100px]" alt="DesignDuniya Logo" />
+                        </a>
+                        <button
+                            data-collapse-toggle="navbar-dropdown"
+                            type="button"
+                            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-[#fff] focus:outline-none focus:ring-2 focus:ring-[#FF7F00]"
+                            aria-controls="navbar-dropdown"
+                            aria-expanded="false"
+                        >
+                            <span class="sr-only">Open main menu</span>
+                            <i class="fa-solid text-[22px] text-[#FF7F00] fa-bars"></i>
+                        </button>
+                        <div class="hidden w-full lg:block lg:w-auto" id="navbar-dropdown">
+                            <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 lg:flex-row xl:space-x-4 lg:space-x-2 lg:mt-0 lg:text-sm lg:font-medium lg:border-0 lg:bg-white">
+                                <li>
+                                    <a href="index.html" class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]" aria-current="page">Home</a>
+                                </li>
+                                <li>
+                                    <a href="aboutus.html" class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]">About Us</a>
+                                </li>
+                                <li>
+                                    <button
+                                        id="dropdownNavbarLink"
+                                        data-dropdown-toggle="dropdownNavbar"
+                                        class="flex items-center justify-between w-full py-2 pl-3 pr-4 block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]"
+                                    >
+                                        Services
+                                        <svg class="w-5 h-5 ml-1" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                        </svg>
+                                    </button>
+
+                                    <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded shadow w-44">
+                                        <ul class="py-1 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
+                                            <li>
+                                                <a href="professionals.html" class="block px-4 py-2 hover:bg-[#FF7F00]">PROFESSIONALS</a>
+                                            </li>
+                                            <li>
+                                                <a href="materials.html" class="block px-4 py-2 hover:bg-[#FF7F00]">MATERIALS</a>
+                                            </li>
+                                            <li>
+                                                <a href="jobs.html" class="block px-4 py-2 hover:bg-[#FF7F00]">CAREERS</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="products.html" class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]">Products</a>
+                                </li>
+                                <li>
+                                    <a href="resource-center.html" class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]">ResourceCentre</a>
+                                </li>
+                                <li>
+                                    <a href="NEWS_RELEASES.html" class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]">Media</a>
+                                </li>
+                                <li>
+                                    <a href="wishlist.html" class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]">Wishlist</a>
+                                </li>
+                                <li>
+                                    <a href="contactus.html" class="block py-2 pl-3 pr-4 xl:text-[18px] lg:text-[16px] text-black font-bold hover:bg-[#FF7F00] rounded-[12px] hover-text-[#fff]">Contact us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- header start end -->
+        <main>
+            <!-- heros-slide start -->
+            <section class="heros-slider">
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden="" checked="checked" />
+                        <div class="carousel-item">
+                            <div class="relative">
+                                <img src="images/banner (2).png" class="w-full" />
+                                <div class="absolute md:block hidden top-[25%] text-center left-[10%]">
+                                    <h1 class="text-[#fff] xl:text-[40px] lg:text-[30px] text-[20px] uppercase Marcellus-fonts">
+                                        Let’s design
+                                    </h1>
+                                    <h1 class="mb-5 text-[#FF7F00] xl:text-[40px] lg:text-[30px] text-[20px] uppercase Marcellus-fonts">
+                                        tHE WORLD TOGETHER
+                                    </h1>
+                                    <a class="bg-[#FF7F00] mt-4 text-[#fff] xl:text-[30px] lg:text-[30px] text-[18px] font-bold px-2 Magra-fonts py-2 rounded-[12px]">DESIGN DUNIA</a>
+                                </div>
+                                <div class="absolute xl:right-[10%] lg:right-[10%] md:right-[10%] right-[0%] top-[20%]">
+                                    <form class="flex justify-center items-center p-4">
+                                        <div class="relative">
+                                            <input
+                                                type="email"
+                                                placeholder="Search..."
+                                                id="email"
+                                                class="outline-none p-1 bg-[#fff] text-[15px] border-[#e0e0e0] text-black placeholder-[#000] focus:border-black xl:min-w-[600px] lg:min-w-[400px] md:min-w-[350px] min-w-[300px] rounded-sm lg:pl-[200px] pl-[130px] lg:py-3 md:py-2 py-1 rounded-l-lg"
+                                            />
+                                            <button class="absolute right-0 top-0 lg:py-3 md:py-2 py-1 lg:px-8 md:px-6 px-4 bg-[#FF7F00] text-white border border-solid border-[#e0e0e0] font-bold rounded-md" type="submit">
+                                                <i class="fa-solid fa-magnifying-glass"></i>
+                                            </button>
+                                            <div class="absolute left-0 top-[1px]">
+                                                <select
+                                                    id="countries"
+                                                    class="bg-[#f5f5f5] h-full lg:pt-[13px] lg:pb-[13px] md:py-2 py-[5.5px] lg:px-8 md:px-6 px-4 border border-[#E0E0E0] text-gray-900 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 block w-full"
+                                                >
+                                                    <option selected>Canada</option>
+                                                    <option value="US">United States</option>
+                                                    <option value="CA">Canada</option>
+                                                    <option value="FR">France</option>
+                                                    <option value="DE">Germany</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <input class="carousel-open" type="radio" id="carousel-2" name="carousel" aria-hidden="true" hidden="" />
+                        <div class="carousel-item">
+                            <div class="relative">
+                                <img src="images/banner (2).png" class="w-full" />
+                                <div class="absolute md:block hidden top-[25%] text-center left-[10%]">
+                                    <h1 class="text-[#fff] xl:text-[40px] lg:text-[30px] text-[20px] uppercase Marcellus-fonts">
+                                        Let’s design
+                                    </h1>
+                                    <h1 class="mb-5 text-[#FF7F00] xl:text-[40px] lg:text-[30px] text-[20px] uppercase Marcellus-fonts">
+                                        tHE WORLD TOGETHER
+                                    </h1>
+                                    <a class="bg-[#FF7F00] mt-4 text-[#fff] xl:text-[30px] lg:text-[30px] text-[18px] font-bold px-2 Magra-fonts py-2 rounded-[12px]">DESIGN DUNIA</a>
+                                </div>
+                                <div class="absolute xl:right-[10%] lg:right-[10%] md:right-[10%] right-[0%] top-[20%]">
+                                    <form class="flex justify-center items-center p-4">
+                                        <div class="relative">
+                                            <input
+                                                type="email"
+                                                placeholder="Search..."
+                                                id="email"
+                                                class="outline-none p-1 bg-[#fff] text-[15px] border-[#e0e0e0] text-black placeholder-[#000] focus:border-black xl:min-w-[600px] lg:min-w-[400px] md:min-w-[350px] min-w-[300px] rounded-sm lg:pl-[200px] pl-[130px] lg:py-3 md:py-2 py-1 rounded-l-lg"
+                                            />
+                                            <button class="absolute right-0 top-0 lg:py-3 md:py-2 py-1 lg:px-8 md:px-6 px-4 bg-[#FF7F00] text-white border border-solid border-[#e0e0e0] font-bold rounded-md" type="submit">
+                                                <i class="fa-solid fa-magnifying-glass"></i>
+                                            </button>
+                                            <div class="absolute left-0 top-[1px]">
+                                                <select
+                                                    id="countries"
+                                                    class="bg-[#f5f5f5] lg:pt-[13px] lg:pb-[13px] md:py-2 py-1 lg:px-8 md:px-6 px-4 border border-[#E0E0E0] text-gray-900 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 block w-full"
+                                                >
+                                                    <option selected>Canada</option>
+                                                    <option value="US">United States</option>
+                                                    <option value="CA">Canada</option>
+                                                    <option value="FR">France</option>
+                                                    <option value="DE">Germany</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <input class="carousel-open" type="radio" id="carousel-3" name="carousel" aria-hidden="true" hidden="" />
+                        <div class="carousel-item">
+                            <div class="relative">
+                                <img src="images/banner (2).png" class="w-full" />
+                                <div class="absolute md:block hidden top-[25%] text-center left-[10%]">
+                                    <h1 class="text-[#fff] xl:text-[40px] lg:text-[30px] text-[20px] uppercase Marcellus-fonts">
+                                        Let’s design
+                                    </h1>
+                                    <h1 class="mb-5 text-[#FF7F00] xl:text-[40px] lg:text-[30px] text-[20px] uppercase Marcellus-fonts">
+                                        tHE WORLD TOGETHER
+                                    </h1>
+                                    <a class="bg-[#FF7F00] mt-4 text-[#fff] xl:text-[30px] lg:text-[30px] text-[18px] font-bold px-2 Magra-fonts py-2 rounded-[12px]">DESIGN DUNIA</a>
+                                </div>
+                                <div class="absolute xl:right-[10%] lg:right-[10%] md:right-[10%] right-[0%] top-[20%]">
+                                    <form class="flex justify-center items-center p-4">
+                                        <div class="relative">
+                                            <input
+                                                type="email"
+                                                placeholder="Search..."
+                                                id="email"
+                                                class="outline-none p-1 bg-[#fff] text-[15px] border-[#e0e0e0] text-black placeholder-[#000] focus:border-black xl:min-w-[600px] lg:min-w-[400px] md:min-w-[350px] min-w-[300px] rounded-sm lg:pl-[200px] pl-[130px] lg:py-3 md:py-2 py-1 rounded-l-lg"
+                                            />
+                                            <button class="absolute right-0 top-0 lg:py-3 md:py-2 py-1 lg:px-8 md:px-6 px-4 bg-[#FF7F00] text-white border border-solid border-[#e0e0e0] font-bold rounded-md" type="submit">
+                                                <i class="fa-solid fa-magnifying-glass"></i>
+                                            </button>
+                                            <div class="absolute left-0 top-[1px]">
+                                                <select
+                                                    id="countries"
+                                                    class="bg-[#f5f5f5] lg:pt-[13px] lg:pb-[13px] md:py-2 py-1 lg:px-8 md:px-6 px-4 border border-[#E0E0E0] text-gray-900 text-sm rounded-l-lg focus:ring-blue-500 focus:border-blue-500 block w-full"
+                                                >
+                                                    <option selected>Canada</option>
+                                                    <option value="US">United States</option>
+                                                    <option value="CA">Canada</option>
+                                                    <option value="FR">France</option>
+                                                    <option value="DE">Germany</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <label for="carousel-3" class="carousel-control prev control-1"><img src="images/prev.png" class="lg:w-20 w-6" /></label>
+
+                        <label for="carousel-2" class="carousel-control next control-1"><img src="images/next.png" class="lg:w-20 w-6" /></label>
+
+                        <label for="carousel-1" class="carousel-control prev control-2"><img src="images/prev.png" class="lg:w-20 w-6" /></label>
+
+                        <label for="carousel-3" class="carousel-control next control-2"><img src="images/next.png" class="lg:w-20 w-6" /></label>
+
+                        <label for="carousel-2" class="carousel-control prev control-3"><img src="images/prev.png" class="lg:w-20 w-6" /></label>
+
+                        <label for="carousel-1" class="carousel-control next control-3"><img src="images/next.png" class="lg:w-20 w-6" /></label>
+
+                        <!-- <ol class="carousel-indicators">
+         <li>
+             <label for="carousel-1" class="carousel-bullet">•</label>
+         </li>
+         <li>
+             <label for="carousel-2" class="carousel-bullet">•</label>
+         </li>
+         <li>
+             <label for="carousel-3" class="carousel-bullet">•</label>
+         </li>
+         </ol> -->
+                    </div>
+                </div>
+            </section>
+            <!-- heros-slide end -->
+            <!-- section one start -->
+            <section class="bg-[#F7F8FA] lg:pt-[50px] md:pt-[20px] pt-[20px] lg:pb-[50px] md:pb-[20px] pb-[20px] lg:pb-[0px]">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <div class="md:mb-[50px] mb-[30px]">
+                        <h1 class="Farro-fonts lg:text-[40px] md:text-[30px] text-[25px] text-center font-bold uppercase text-[#000] mb-4">We Provide <span class="text-[#FF7F00]">Solutions</span></h1>
+                    </div>
+                    <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-[30px]">
+                        <div class="mb-4">
+                            <a href="professionals.html" class="relative">
+                                <img src="images/img-1.jpg" class="m-auto block w-[100%] h-auto mb-5" />
+                                <div class="absolute z-10 top-0 left-0 bg-[#FF7F00] lg:min-w-[285px] min-w-[225px] px-1 py-1">
+                                    <h6 class="uppercase text-[#000] lg:text-[15px] text-[10px] font-bold AHUM-font">Looking For</h6>
+                                    <h5 class="uppercase text-[#fff] lg:text-[25px] text-[18px] font-bold AHUM-font">
+                                        Professionals
+                                    </h5>
+                                </div>
+                                <div class="arrow-black absolute top-[-48px;] left-[-18px]"></div>
+                            </a>
+                        </div>
+                        <a href="materials.html" class="mb-4">
+                            <div class="relative">
+                                <img src="images/img-2.jpg" class="m-auto block w-[100%] h-auto mb-5" />
+                                <div class="absolute z-10 top-0 left-0 bg-[#FF7F00] lg:min-w-[285px] min-w-[225px] px-1 py-1">
+                                    <h6 class="uppercase text-[#000] lg:text-[15px] text-[10px] font-bold AHUM-font">Looking For</h6>
+                                    <h5 class="uppercase text-[#fff] lg:text-[25px] text-[18px] font-bold AHUM-font">
+                                        MATERIALS
+                                    </h5>
+                                </div>
+                                <div class="arrow-black absolute top-[-48px;] left-[-18px]"></div>
+                            </div>
+                        </a>
+                        <a href="jobs.html" class="mb-4">
+                            <div class="relative">
+                                <img src="images/img-3.jpg" class="m-auto w-full block w-[100%] h-auto mb-5" />
+                                <div class="absolute z-10 top-0 left-0 bg-[#FF7F00] lg:min-w-[280px] min-w-[220px] px-1 py-1">
+                                    <h6 class="uppercase text-[#000] lg:text-[15px] text-[10px] font-bold AHUM-font">Looking For</h6>
+                                    <h5 class="uppercase text-[#fff] lg:text-[22px] text-[18px] font-bold AHUM-font">JOBS</h5>
+                                </div>
+                                <div class="arrow-black absolute top-[-48px;] left-[-18px]"></div>
+                            </div>
+                        </a>
+                        <a href="products.html" class="">
+                            <div class="relative">
+                                <img src="images/img-4.jpg" class="m-auto block w-[100%] h-auto mb-5" />
+                                <div class="absolute z-10 top-0 left-0 bg-[#FF7F00] lg:min-w-[280px] min-w-[220px] px-1 py-1">
+                                    <h6 class="uppercase text-[#000] lg:text-[15px] text-[10px] font-bold AHUM-font">
+                                        Looking For
+                                    </h6>
+                                    <h5 class="uppercase text-[#fff] lg:text-[22px] text-[18px] font-bold AHUM-font">
+                                        ProDUCTS
+                                    </h5>
+                                </div>
+                                <div class="arrow-black absolute top-[-48px;] left-[-18px]"></div>
+                            </div>
+                        </a>
+                        <a href="KNOWLEDGECENTRE.html">
+                            <div class="relative">
+                                <img src="images/img-5.jpg" class="m-auto block w-[100%] h-auto mb-5" />
+                                <div class="absolute z-10 top-0 left-0 bg-[#FF7F00] lg:min-w-[280px] min-w-[220px] px-1 py-1">
+                                    <h6 class="uppercase text-[#000] lg:text-[15px] text-[10px] font-bold AHUM-font">
+                                        Looking For
+                                    </h6>
+                                    <h5 class="uppercase text-[#fff] lg:text-[22px] text-[18px] font-bold AHUM-font">
+                                        ARTIST
+                                    </h5>
+                                </div>
+                                <div class="arrow-black absolute top-[-48px;] left-[-18px]"></div>
+                            </div>
+                        </a>
+                        <a href="property.html" class="">
+                            <div class="relative">
+                                <img src="images/img-6.jpg" class="m-auto block w-[100%] h-auto" />
+                                <div class="absolute z-10 top-0 left-0 bg-[#FF7F00] lg:min-w-[280px] min-w-[220px] px-1 py-1">
+                                    <h6 class="uppercase text-[#000] lg:text-[15px] text-[10px] font-bold AHUM-font">
+                                        Looking For
+                                    </h6>
+                                    <h5 class="uppercase text-[#fff] lg:text-[22px] text-[18px] font-bold AHUM-font">
+                                        PROPERTY
+                                    </h5>
+                                </div>
+                                <div class="arrow-black absolute top-[-48px;] left-[-18px]"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- section one end -->
+            <!-- Company Info section start -->
+            <section class="bg-[#F7F8FA]">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <div class="">
+                        <h1 class="Farro-fonts lg:text-[36px] md:text-[30px] text-[25px] text-left font-bold text-[#000] mb-4">Company <span class="text-[#FF7F00]">Info</span></h1>
+                        <p class="xl:text-[20px] lg:text-[20px] md:text-[18px] text-[16px] mb-6">
+                            Design Dunia is a full – service architecture, Interior Design, Landscape Design, Planning firm which works at all scale and magnitude across anywhere in the world. We creates transformate – innovative,
+                            institutional, cultural, leisure, residential, commercial, mixed use and office spaces that works as a relationship with outside nature with functional inner spaces....<a href="#" class="text-[#FF7F00]">more</a>
+                        </p>
+                    </div>
+                    <div class="bg-[#d9d9d9]">
+                        <div class="flex lg:flex-row flex-col">
+                            <div class="flex-1 flex lg:justify-center justify-start items-center experice-colm-one py-[30px] px-6">
+                                <div class="xl:text-[80px] lg:text-[60px] text-[40px] lg:text-black mr-3 font-bold">20</div>
+                                <div class="font-bold xl:text-[25px] lg:text-[20px] text-[18px] uppercase">
+                                    years of <br />
+                                    work experience
+                                </div>
+                            </div>
+                            <div class="flex-1 flex lg:justify-center justify-start items-center py-[30px] px-6">
+                                <div class="xl:text-[80px] lg:text-[60px] text-[40px] text-[#FF7F00] mr-3 font-bold">7<sup>+</sup></div>
+                                <div class="font-bold xl:text-[25px] lg:text-[20px] text-[18px] uppercase">
+                                    talended<br />
+                                    consultant
+                                </div>
+                            </div>
+                            <div class="flex-1 flex lg:justify-center justify-start items-center py-[30px] px-6">
+                                <div class="xl:text-[80px] lg:text-[60px] text-[40px] text-[#FF7F00] mr-3 font-bold">200+</div>
+                                <div class="font-bold xl:text-[25px] lg:text-[20px] text-[18px] uppercase">
+                                    completed<br />
+                                    project
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Company Info section end -->
+            <!-- cat section start -->
+            <section class="bg-[#F7F8FA]">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <div class="">
+                        <h1 class="lg:text-[36px] md:text-[30px] text-[25px] Farro-fonts text-left font-bold text-[#000] mb-4">Search by<span class="text-[#FF7F00]"> Categories</span></h1>
+                    </div>
+                    <div class="mb-4">
+                        <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="myTab" data-tabs-toggle="#myTabContent" role="tablist">
+                            <li class="mr-2" role="presentation">
+                                <button
+                                    class="inline-block WorkSfonts md:text-[20px] text-[16px] text-[#000] font-bold p-4 rounded-t-lg"
+                                    id="profile-tab"
+                                    data-tabs-target="#profile"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="profile"
+                                    aria-selected="false"
+                                >
+                                    Looking for Professionals
+                                </button>
+                            </li>
+                            <li class="mr-2" role="presentation">
+                                <button
+                                    class="inline-block p-4 WorkSfonts md:text-[20px] text-[16px] text-[#000] font-bold rounded-t-lg border-transparent"
+                                    id="dashboard-tab"
+                                    data-tabs-target="#dashboard"
+                                    type="button"
+                                    role="tab"
+                                    aria-controls="dashboard"
+                                    aria-selected="false"
+                                >
+                                    Looking for Material
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="myTabContent">
+                        <div class="hidden p-4 bg-gray-50 rounded-lg" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <div class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-[30px] bg-[#f5f5f5] px-6 py-6 mb-[30px]">
+                                <a href="category-profilepage.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/cat/brainstorming.svg" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">3D Visualizer</p>
+                                </a>
+                                <a href="category-profilepage.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/cat/architect.svg" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Civil Engineer</p>
+                                </a>
+
+                                <a href="category-profilepage.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/cat/consultant-services.svg" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Mep Consultant</p>
+                                </a>
+                                <a href="category-profilepage.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/cat/consultation.svg" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Interior Designer</p>
+                                </a>
+                                <a href="category-profilepage.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/cat/designer.svg" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Vaastu consultant</p>
+                                </a>
+                            </div>
+                            <div class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-[30px] bg-[#f5f5f5] px-6 py-6">
+                                <a href="category-profilepage.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/cat/manager.svg" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Feng Shui Consultant</p>
+                                </a>
+                                <a href="category-profilepage.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/cat/real-estate.svg" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Landscape Architect</p>
+                                </a>
+                                <a href="category-profilepage.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/cat/visulizer.svg" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Project manager</p>
+                                </a>
+                                <a href="category-profilepage.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/cat/worker.svg" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Real Estate Agent</p>
+                                </a>
+                                <a href="category-profilepage.html" class="flex items-center justify-center bg-[#fff] shadow-md px- py-4">
+                                    <div>
+                                        <img src="images/cat/architect.svg" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Civil Engineer</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hidden p-4 bg-gray-50 rounded-lg" id="dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
+                            <div class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-[30px] bg-[#f5f5f5] px-6 py-6 mb-[30px]">
+                                <a href="products-filler.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/cementB.png" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Cement</p>
+                                </a>
+                                <a href="products-filler.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/sandB.png" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Sand & Aggregates</p>
+                                </a>
+                                <a href="products-filler.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/iron-barB.png" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">TMT Steel Bars</p>
+                                </a>
+                                <a href="products-filler.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/brickB.png" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Briks & Blocks</p>
+                                </a>
+                                <a href="products-filler.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/sustainable-energyB.png" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Electrical</p>
+                                </a>
+                            </div>
+                            <div class="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 gap-[30px] bg-[#f5f5f5] px-6 py-6">
+                                <a href="products-filler.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/plumberB.png" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Plumbing</p>
+                                </a>
+                                <a href="products-filler.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/logB.png" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Wooden Products</p>
+                                </a>
+                                <a href="products-filler.html" class="flex items-center justify-center bg-[#fff] shadow-md px-2 py-4">
+                                    <div>
+                                        <img src="images/tilesB.png" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Tiles</p>
+                                </a>
+
+                                <a href="products-filler.html" class="flex items-center justify-center bg-[#fff] shadow-md px- py-4">
+                                    <div>
+                                        <img src="images/towel-rackB.png" class="pr-2 h-[60px]" />
+                                    </div>
+                                    <p class="lg:text-[18px] md:text-[16px] text-[16px]">Bathroom Accessories</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- cat section send -->
+
+            <!-- Ads sectyon start -->
+            <section class="bg-[#F7F8FA]">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <div class="">
+                        <h1 class="lg:text-[36px] md:text-[30px] text-[30px] Farro-fonts text-left font-bold text-[#000] mb-4">
+                            Ads
+                        </h1>
+                    </div>
+                    <div class="flex sm:flex-row flex-col md:gap-[30px] gap-4">
+                        <div>
+                            <img src="images/ads/ads1.png" class="pr-2" />
+                        </div>
+                        <div>
+                            <img src="images/ads/ads2.png" class="pr-2" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Ads sectyon end -->
+            <!-- User Offer section start -->
+            <section class="bg-[#F7F8FA]">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <div class="bg-[#d9d9d9]">
+                        <div class="flex lg:flex-row flex-col">
+                            <div class="flex-1 flex lg:justify-start justify-center items-center offer-colm-one md:py-8 py-4 px-[30px]">
+                                <div class="font-bold text-white lg:text-[20px] text-[18px]">New User Offer</div>
+                            </div>
+                            <div class="flex-1 flex lg:justify-start justify-center items-center md:py-8 py-4 px-[30px]">
+                                <p class="font-bold text-center text-black md:text-[18px] text-[16px]">First customer get up to to 1000/- off on first online order <a href="#" class="text-[#FF3C1F]">Use Coupon</a></p>
+                            </div>
+                            <div class="flex-1 flex lg:justify-end justify-center items-center md:py-8 py-4 px-[30px]">
+                                <a class="font-bold bg-[#FF7F00] px-[35px] py-[10px] text-white md:text-[18px] text-[16px]">NEW2022</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- User Offer section end -->
+            <!-- latest product slider start -->
+            <section class="">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <h1 class="lg:text-[36px] md:text-[30px] text-[25px] Farro-fonts text-left font-bold text-[#000] mb-4">Design Dunia<span class="text-[#FF7F00]">&nbsp;Products</span></h1>
+                    <hr />
+                    <div class="grid xl:grid-cols-4 overflow-hidden lg:grid-cols-2 sm:grid-cols-2 grid-cols-1 mt-8 md:gap-2 gap-6">
+                        <div>
+                            <h2 class="mb-5 md:text-[18px] text-[16px] uppercase font-bold">Latest products</h2>
+                            <div class="border-[#ebebeb] border divider-red"></div>
+                            <div class="products-1 mt-5">
+                                <div class="outer-main">
+                                    <div class="card flex">
+                                        <a href="products-details.html" class="items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="outer-main">
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="mb-5 md:text-[18px] text-[16px] uppercase font-bold">Latest products</h2>
+                            <div class="border-[#ebebeb] border divider-red"></div>
+                            <div class="products-1 mt-5">
+                                <div class="outer-main">
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="outer-main">
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="mb-5 md:text-[18px] text-[16px] uppercase font-bold">Most Selling</h2>
+                            <div class="border-[#ebebeb] border divider-red"></div>
+                            <div class="products-1 mt-5">
+                                <div class="outer-main">
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="outer-main">
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="mb-5 md:text-[18px] text-[16px] uppercase font-bold">Most Selling</h2>
+                            <div class="border-[#ebebeb] border divider-red"></div>
+                            <div class="products-1 mt-5">
+                                <div class="outer-main">
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="outer-main">
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card flex">
+                                        <div class="flex items-center p-4">
+                                            <div>
+                                                <img src="images/ccc.jpg" class="pr-2 h-[100px]" />
+                                            </div>
+                                            <div>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <a href=""><i class="fa-solid text-[#cccccc] fa-star"></i></a>
+                                                <div class="text-right">
+                                                    <del class="text-[#cccccc]">1595.00</del>
+                                                </div>
+                                                <p class="text-[#ff4025] font-bold">1391.76per NO's</p>
+                                                <p class="text-gray">Elbow's 3/4 " Ashirwad</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- latest product slider end -->
+            <!-- banner add middle start -->
+            <section class="">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <img src="images/banner-new.jpg" />
+                </div>
+            </section>
+            <!-- banner add middle start -->
+            <!-- most visited section start-->
+            <section class="overflow-hidden py-6">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <div class="mb-6">
+                        <h1 class="lg:text-[36px] md:text-[30px] text-[25px] Farro-fonts text-left font-bold text-[#000] mb-4">Most<span class="text-[#FF7F00]">&nbsp;Visited</span></h1>
+                        <hr />
+                    </div>
+                    <div class="mostvisited">
+                        <div>
+                            <div class="bg-[#f7f7f7] flex items-center">
+                                <a href="products-details.html" class="items-center p-4"></a>
+                                <div>
+                                    <img src="images/ccc.jpg" class="pr-2 h-[150px]" />
+                                </div>
+                                <div>
+                                    <p class="text-[#ff4025] font-bold">385.00per Bag<del class="font-bold text-[#999999]">&nbsp;520.00</del></p>
+                                    <p class="text-gray">Ultratech super cement</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-[#f7f7f7] flex items-center">
+                                <div>
+                                    <img src="images/ccc.jpg" class="pr-2 h-[150px]" />
+                                </div>
+                                <div>
+                                    <p class="text-[#ff4025] font-bold">385.00per Bag<del class="font-bold text-[#999999]">&nbsp;520.00</del></p>
+                                    <p class="text-gray">Ultratech super cement</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-[#f7f7f7] flex items-center">
+                                <div>
+                                    <img src="images/ccc.jpg" class="pr-2 h-[150px]" />
+                                </div>
+                                <div>
+                                    <p class="text-[#ff4025] font-bold">385.00per Bag<del class="font-bold text-[#999999]">&nbsp;520.00</del></p>
+                                    <p class="text-gray">Ultratech super cement</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-[#f7f7f7] flex items-center">
+                                <div>
+                                    <img src="images/ccc.jpg" class="pr-2 h-[150px]" />
+                                </div>
+                                <div>
+                                    <p class="text-[#ff4025] font-bold">385.00per Bag<del class="font-bold text-[#999999]">&nbsp;520.00</del></p>
+                                    <p class="text-gray">Ultratech super cement</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-[#f7f7f7] flex items-center">
+                                <div>
+                                    <img src="images/ccc.jpg" class="pr-2 h-[150px]" />
+                                </div>
+                                <div>
+                                    <p class="text-[#ff4025] font-bold">385.00per Bag<del class="font-bold text-[#999999]">&nbsp;520.00</del></p>
+                                    <p class="text-gray">Ultratech super cement</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="bg-[#f7f7f7] flex items-center">
+                                <div>
+                                    <img src="images/ccc.jpg" class="pr-2 h-[150px]" />
+                                </div>
+                                <div>
+                                    <p class="text-[#ff4025] font-bold">385.00per Bag<del class="font-bold text-[#999999]">&nbsp;520.00</del></p>
+                                    <p class="text-gray">Ultratech super cement</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- most visited section end-->
+            <!-- client setion start -->
+            <section class="overflow-hidden py-6">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <div class="mb-6">
+                        <h1 class="lg:text-[36px] md:text-[30px] text-[25px] Farro-fonts text-left font-bold text-[#000] mb-4">Brand we <span class="text-[#FF7F00]"> work with</span></h1>
+                        <hr />
+                    </div>
+                    <div class="clientlogo">
+                        <div>
+                            <img src="images/brand/brand-1.jpg" class="mx-auto block" />
+                        </div>
+                        <div>
+                            <img src="images/brand/brand-2.jpg" class="mx-auto block" />
+                        </div>
+                        <div>
+                            <img src="images/brand/brand-3.jpg" class="mx-auto block" />
+                        </div>
+                        <div>
+                            <img src="images/brand/brand-4.jpg" class="mx-auto block" />
+                        </div>
+                        <div>
+                            <img src="images/brand/brand-5.jpg" class="mx-auto block" />
+                        </div>
+                        <div>
+                            <img src="images/brand/brand-6.jpg" class="mx-auto block" />
+                        </div>
+                        <div>
+                            <img src="images/brand/brand-1.jpg" class="mx-auto block" />
+                        </div>
+                        <div>
+                            <img src="images/brand/brand-2.jpg" class="mx-auto block" />
+                        </div>
+                        <div>
+                            <img src="images/brand/brand-3.jpg" class="mx-auto block" />
+                        </div>
+                        <div>
+                            <img src="images/brand/brand-4.jpg" class="mx-auto block" />
+                        </div>
+                        <div>
+                            <img src="images/brand/brand-5.jpg" class="mx-auto block" />
+                        </div>
+                        <div>
+                            <img src="images/brand/brand-6.jpg" class="mx-auto block" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- client setion end -->
+            <!-- Testimonials setion start -->
+            <section class="overflow-hidden py-6">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <div class="mb-6">
+                        <h1 class="lg:text-[36px] md:text-[30px] Farro-fonts text-[25px] text-left font-bold text-[#000] mb-4">
+                            Testimonials
+                        </h1>
+                    </div>
+                    <div class="Testimonials">
+                        <div>
+                            <div class="relative border-4 border-[#FF7F00] p-5">
+                                <div class="lg:mt-[100px] mt-[50px]">
+                                    <h5 class="font-bold Farro-fonts text-[#000] mb-4 text-[25px]">Paul</h5>
+                                    <p class="mb-3 WorkSfonts">Designer in <a href="" class="text-[#FF7F00]">Paul.com</a></p>
+                                    <p class="text-[#787878] mt-2 WorkSfonts">Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.</p>
+                                </div>
+                                <div class="absolute top-[-50px] left-[50px]">
+                                    <img src="images/client/c-one.png" class="rounded-[50px] z-50" />
+                                </div>
+                                <div class="absolute top-[20px] right-[20px]">
+                                    <img src="images/quote.svg" class="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="relative border-4 border-[#FF7F00] p-5">
+                                <div class="lg:mt-[100px] mt-[50px]">
+                                    <h5 class="font-bold Farro-fonts text-[#000] mb-4 text-[25px]">Paul</h5>
+                                    <p class="mb-3 WorkSfonts">Designer in <a href="" class="text-[#FF7F00]">Paul.com</a></p>
+                                    <p class="text-[#787878] mt-2 WorkSfonts">Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.</p>
+                                </div>
+                                <div class="absolute top-[-50px] left-[50px]">
+                                    <img src="images/client/c-one.png" class="rounded-[50px] z-50" />
+                                </div>
+                                <div class="absolute top-[20px] right-[20px]">
+                                    <img src="images/quote.svg" class="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="relative border-4 border-[#FF7F00] p-5">
+                                <div class="lg:mt-[100px] mt-[50px]">
+                                    <h5 class="font-bold Farro-fonts text-[#000] mb-4 text-[25px]">Paul</h5>
+                                    <p class="mb-3 WorkSfonts">Designer in <a href="" class="text-[#FF7F00]">Paul.com</a></p>
+                                    <p class="text-[#787878] mt-2 WorkSfonts">Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.</p>
+                                </div>
+                                <div class="absolute top-[-50px] left-[50px]">
+                                    <img src="images/client/c-one.png" class="rounded-[50px] z-50" />
+                                </div>
+                                <div class="absolute top-[20px] right-[20px]">
+                                    <img src="images/quote.svg" class="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="relative border-4 border-[#FF7F00] p-5">
+                                <div class="lg:mt-[100px] mt-[50px]">
+                                    <h5 class="font-bold Farro-fonts text-[#000] mb-4 text-[25px]">Paul</h5>
+                                    <p class="mb-3 WorkSfonts">Designer in <a href="" class="text-[#FF7F00]">Paul.com</a></p>
+                                    <p class="text-[#787878] mt-2 WorkSfonts">Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.</p>
+                                </div>
+                                <div class="absolute top-[-50px] left-[50px]">
+                                    <img src="images/client/c-one.png" class="rounded-[50px] z-50" />
+                                </div>
+                                <div class="absolute top-[20px] right-[20px]">
+                                    <img src="images/quote.svg" class="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="relative border-4 border-[#FF7F00] p-5">
+                                <div class="lg:mt-[100px] mt-[50px]">
+                                    <h5 class="font-bold Farro-fonts text-[#000] mb-4 text-[25px]">Paul</h5>
+                                    <p class="mb-3 WorkSfonts">Designer in <a href="" class="text-[#FF7F00]">Paul.com</a></p>
+                                    <p class="text-[#787878] mt-2 WorkSfonts">Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.</p>
+                                </div>
+                                <div class="absolute top-[-50px] left-[50px]">
+                                    <img src="images/client/c-one.png" class="rounded-[50px] z-50" />
+                                </div>
+                                <div class="absolute top-[20px] right-[20px]">
+                                    <img src="images/quote.svg" class="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="relative border-4 border-[#FF7F00] p-5">
+                                <div class="lg:mt-[100px] mt-[50px]">
+                                    <h5 class="font-bold Farro-fonts text-[#000] mb-4 text-[25px]">Paul</h5>
+                                    <p class="mb-3 WorkSfonts">Designer in <a href="" class="text-[#FF7F00]">Paul.com</a></p>
+                                    <p class="text-[#787878] mt-2 WorkSfonts">Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.</p>
+                                </div>
+                                <div class="absolute top-[-50px] left-[50px]">
+                                    <img src="images/client/c-one.png" class="rounded-[50px] z-50" />
+                                </div>
+                                <div class="absolute top-[20px] right-[20px]">
+                                    <img src="images/quote.svg" class="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonials setion end -->
+            <!-- Blog section start -->
+            <section class="overflow-hidden">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <div class="mb-6">
+                        <h1 class="lg:text-[36px] md:text-[30px] text-[25px] Farro-fonts text-left font-bold text-[#000] mb-4">Latest<span class="text-[#FF7F00]"> Blog</span></h1>
+                    </div>
+                    <div class="blog-slider overflow-hidden mt-0 pt-0 pb-[60px]">
+                        <div class="overflow-hidden">
+                            <div class="relative">
+                                <img class="w-full" src="images/blog1.jpg" alt="" />
+                                <div class="bg-[#FF7F00] w-full block absolute bottom-0 left-0 text-center py-3">
+                                    <p class="text-[#000] font-bold xl:text-[20px] lg:text-[18px] text-[16px] Farro-fonts">
+                                        Master These Awsome Skills
+                                    </p>
+                                </div>
+                                <div class="arrow-left absolute top-[-44px;] left-[-9px]"></div>
+                                <a href="" class="absolute top-[10px;] right-[10px]">
+                                    <img class="w-full" src="images/share.svg" alt="" />
+                                </a>
+                            </div>
+                            <div class="py-4">
+                                <div class="font-bold text-xl mb-2 lg:text-[20px] text-[16px] WorkSfonts">
+                                    <span><i class="fa-solid fa-calendar-days mr-2"></i></span>05 Oct,2022
+                                </div>
+                                <p class="text-black text-base lg:text-[18px] text-[16px]">
+                                    Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.
+                                </p>
+                            </div>
+                            <div class="pt-4 pb-2">
+                                <a href="#" class="text-black hover:text-[#fff] font-bold hover:bg-[#FF7F00] border border-[#000] rounded-full px-[28px] py-[10px]">Read More</a>
+                            </div>
+                        </div>
+                        <div class="overflow-hidden">
+                            <div class="relative">
+                                <img class="w-full" src="images/blog1.jpg" alt="" />
+                                <div class="bg-[#FF7F00] w-full block absolute bottom-0 left-0 text-center py-3">
+                                    <p class="text-[#000] font-bold xl:text-[20px] lg:text-[18px] text-[16px] Farro-fonts">
+                                        Master These Awsome Skills
+                                    </p>
+                                </div>
+                                <div class="arrow-left absolute top-[-44px;] left-[-9px]"></div>
+                                <a href="" class="absolute top-[10px;] right-[10px]">
+                                    <img class="w-full" src="images/share.svg" alt="" />
+                                </a>
+                            </div>
+                            <div class="py-4">
+                                <div class="font-bold text-xl mb-2 lg:text-[20px] text-[16px] WorkSfonts">
+                                    <span><i class="fa-solid fa-calendar-days mr-2"></i></span>05 Oct,2022
+                                </div>
+                                <p class="text-black text-base lg:text-[18px] text-[16px]">
+                                    Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.
+                                </p>
+                            </div>
+                            <div class="pt-4 pb-2">
+                                <a href="#" class="text-black hover:text-[#fff] font-bold hover:bg-[#FF7F00] border border-[#000] rounded-full px-[28px] py-[10px]">Read More</a>
+                            </div>
+                        </div>
+                        <div class="overflow-hidden">
+                            <div class="relative">
+                                <img class="w-full" src="images/blog1.jpg" alt="" />
+                                <div class="bg-[#FF7F00] w-full block absolute bottom-0 left-0 text-center py-3">
+                                    <p class="text-[#000] font-bold xl:text-[20px] lg:text-[18px] text-[16px] Farro-fonts">
+                                        Master These Awsome Skills
+                                    </p>
+                                </div>
+                                <div class="arrow-left absolute top-[-44px;] left-[-9px]"></div>
+                                <a href="" class="absolute top-[10px;] right-[10px]">
+                                    <img class="w-full" src="images/share.svg" alt="" />
+                                </a>
+                            </div>
+                            <div class="py-4">
+                                <div class="font-bold text-xl mb-2 lg:text-[20px] text-[16px] WorkSfonts">
+                                    <span><i class="fa-solid fa-calendar-days mr-2"></i></span>05 Oct,2022
+                                </div>
+                                <p class="text-black text-base lg:text-[18px] text-[16px]">
+                                    Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.
+                                </p>
+                            </div>
+                            <div class="pt-4 pb-2">
+                                <a href="#" class="text-black hover:text-[#fff] font-bold hover:bg-[#FF7F00] border border-[#000] rounded-full px-[28px] py-[10px]">Read More</a>
+                            </div>
+                        </div>
+                        <div class="overflow-hidden">
+                            <div class="relative">
+                                <img class="w-full" src="images/blog1.jpg" alt="" />
+                                <div class="bg-[#FF7F00] w-full block absolute bottom-0 left-0 text-center py-3">
+                                    <p class="text-[#000] font-bold xl:text-[20px] lg:text-[18px] text-[16px]">Master These Awsome Skills</p>
+                                </div>
+                                <div class="arrow-left absolute top-[-44px;] left-[-9px]"></div>
+                                <a href="" class="absolute top-[10px;] right-[10px]">
+                                    <img class="w-full" src="images/share.svg" alt="" />
+                                </a>
+                            </div>
+                            <div class="py-4">
+                                <div class="font-bold text-xl mb-2 lg:text-[20px] text-[16px] WorkSfonts">
+                                    <span><i class="fa-solid fa-calendar-days mr-2"></i></span>05 Oct,2022
+                                </div>
+                                <p class="text-black text-base lg:text-[18px] text-[16px]">
+                                    Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.
+                                </p>
+                            </div>
+                            <div class="pt-4 pb-2">
+                                <a href="#" class="text-black hover:text-[#fff] font-bold hover:bg-[#FF7F00] border border-[#000] rounded-full px-[28px] py-[10px]">Read More</a>
+                            </div>
+                        </div>
+                        <div class="overflow-hidden">
+                            <div class="relative">
+                                <img class="w-full" src="images/blog1.jpg" alt="" />
+                                <div class="bg-[#FF7F00] w-full block absolute bottom-0 left-0 text-center py-3">
+                                    <p class="text-[#000] font-bold xl:text-[20px] lg:text-[18px] text-[16px]">Master These Awsome Skills</p>
+                                </div>
+                                <div class="arrow-left absolute top-[-44px;] left-[-9px]"></div>
+                                <a href="" class="absolute top-[10px;] right-[10px]">
+                                    <img class="w-full" src="images/share.svg" alt="" />
+                                </a>
+                            </div>
+                            <div class="py-4">
+                                <div class="font-bold text-xl mb-2 lg:text-[20px] text-[16px] WorkSfonts">
+                                    <span><i class="fa-solid fa-calendar-days mr-2"></i></span>05 Oct,2022
+                                </div>
+                                <p class="text-black text-base lg:text-[18px] text-[16px]">
+                                    Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.
+                                </p>
+                            </div>
+                            <div class="pt-4 pb-2">
+                                <a href="#" class="text-black hover:text-[#fff] font-bold hover:bg-[#FF7F00] border border-[#000] rounded-full px-[28px] py-[10px]">Read More</a>
+                            </div>
+                        </div>
+                        <div class="overflow-hidden">
+                            <div class="relative">
+                                <img class="w-full" src="images/blog1.jpg" alt="" />
+                                <div class="bg-[#FF7F00] w-full block absolute bottom-0 left-0 text-center py-3">
+                                    <p class="text-[#000] font-bold xl:text-[20px] lg:text-[18px] text-[16px]">Master These Awsome Skills</p>
+                                </div>
+                                <div class="arrow-left absolute top-[-44px;] left-[-9px]"></div>
+                                <a href="" class="absolute top-[10px;] right-[10px]">
+                                    <img class="w-full" src="images/share.svg" alt="" />
+                                </a>
+                            </div>
+                            <div class="py-4">
+                                <div class="font-bold text-xl mb-2 lg:text-[20px] text-[16px]">
+                                    <span><i class="fa-solid fa-calendar-days mr-2"></i></span>05 Oct,2022
+                                </div>
+                                <p class="text-black text-base lg:text-[18px] text-[16px]">
+                                    Projects for many large domestic and foreign corporations, enterprises in many elds such as nance, banking, F&B, education, communication.
+                                </p>
+                            </div>
+                            <div class="pt-4 pb-2">
+                                <a href="#" class="text-black hover:text-[#fff] font-bold hover:bg-[#FF7F00] border border-[#000] rounded-full px-[28px] py-[10px]">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Blog section start -->
+        </main>
+        <!-- footer section start -->
+        <footer>
+            <section class="bg-[#232f3e] py-4 text-[#fff]">
+                <div class="max-w-[1600px] p-5 mx-auto">
+                    <div class="flex lg:flex-row flex-col items-center justify-between flex-col">
+                        <div class="flex justify-start items-center">
+                            <img src="images/top-right02.png" class="h-[50px] mr-3" />
+                            <div>
+                                <p class="xl:text-[22px] lg:text-[18px] text-[16px] Farro-fonts">SignUp or Newsletter</p>
+                                <p class="xl:text-[14px] lg:text-[12px] text-[12px]">We'll never share your email with a third party</p>
+                            </div>
+                        </div>
+                        <div class="lg:mt-0 mt-2">
+                            <form class="flex justify-center items-center p-4">
+                                <div class="relative">
+                                    <input
+                                        type="email"
+                                        placeholder="Enter Your mail.."
+                                        id="email"
+                                        class="outline-none p-1 text-[15px] bg-[#fff] placeholder-gray focus:border-none xl:min-w-[400px] lg:min-w-[300px] min-w-[300px] rounded-sm py-3 text-black focus:shadow-none focus:outline-none px-3"
+                                    />
+                                    <button class="absolute right-0 top-0 py-3 bg-[#ff3c20] text-white border border-solid border-[#ff3c20] px-5 font-bold" type="submit">
+                                        Subscribe
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="flex lg:mt-0 mt-2 justify-end xl:space-x-4 lg:space-x-4 space-x-2">
+                            <a class="mr-3 xl:text-[16px] text-[14px] hover:text-[#FF7F00]" href="">
+                                <span><i class="fa-brands md:text-left text-center fa-facebook-f mr-2"></i></span>Facebook
+                            </a>
+                            <a class="mr-3 xl:text-[16px] text-[14px] hover:text-[#FF7F00]" href="">
+                                <span><i class="fa-brands md:text-left text-center fa-twitter mr-2"></i></span>twitter
+                            </a>
+                            <a class="mr-3 xl:text-[16px] text-[14px] hover:text-[#FF7F00]" href="">
+                                <span><i class="fa-brands fa-linkedin mr-2"></i></span>linkedin
+                            </a>
+                            <a class="xl:text-[16px] text-[14px] hover:text-[#FF7F00]" href="">
+                                <span><i class="fa-brands md:text-left text-center fa-instagram mr-2"></i></span>instagram
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="max-w-[1600px] px-5 py-10 mx-auto flex md:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+                <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+                    <a href="#" class="flex md:justify-start justify-center items-center">
+                        <img src="images/logo.png" class="" alt="DesignDuniya Logo" />
+                    </a>
+
+                    <p class="mt-4 text-[16px] text-black leading-7">Design Dunia is a full – service architecture, Interior Design, Landscape Design, Planning firm which works at all scale and magnitude across anywhere in the world.</p>
+                </div>
+                <div class="flex-grow flex flex-wrap lg:pl-10 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+                    <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+                        <h2 class="font-bold mb-3 uppercase">daily updates</h2>
+                        <nav class="list-none mb-10">
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Cement Price Online</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Cement Price Today</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">List Of Cement Brands</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Best Quality Cement</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">TMT Steel Bars Online</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Best TMT Steel Brands</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+                        <h2 class="font-bold mb-3 uppercase">Popular Serches</h2>
+                        <nav class="list-none mb-10">
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Ultratech Cement Price</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a href="" class="text-gray-400">Birla A1 Cement Price</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Cement Wholesale Price</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Building Materials Online</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Cement Price In Hyderabad</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Construction Services Online</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+                        <h2 class="font-bold mb-3 uppercase">Company</h2>
+                        <nav class="list-none mb-10">
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Ultratech Cement Price</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Birla A1 Cement Price</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Cement Wholesale Price</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Building Materials Online</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Cement Price In Hyderabad</a>
+                            </li>
+                            <li class="mb-3 WorkSfonts">
+                                <a class="text-gray-400">Construction Services Online</a>
+                            </li>
+                        </nav>
+                    </div>
+                    <div class="xl:w-1/4 lg:w-1/2 md:w-1/2 sm:w-1/2 w-full px-2">
+                        <div class="text-[16px] mb-3 flex items-center WorkSfonts gap-2">
+                            <img src="images/footer-icon/location.png" class="text-left w-[30px] mr-3" />
+                            <p class="text-left">Plot No 92, 64, Patel Marg, Mansarovar Sector 9, Jaipur, Rajasthan 302020</p>
+                        </div>
+                        <div class="mb-3 flex items-center gap-2 WorkSfonts">
+                            <img src="images/footer-icon/support.png" class="w-[30px] mr-3" />
+                            <a href="tel:+91-9982507555" class="text-[16px] hover:text-[#FF7F00]">+91-9982507555</a>
+                        </div>
+                        <div class="mb-3 flex items-center gap-2 WorkSfonts">
+                            <img src="images/footer-icon/open.png" class="w-[30px] mr-3" />
+                            <a href="mailto:contactdesigndunia.com" class="text-[16px] hover:text-[#FF7F00]">contactdesigndunia.com</a>
+                        </div>
+                        <div class="text-[16px] mb-3 flex items-center WorkSfonts gap-2">
+                            <img src="images/footer-icon/clock.png" class="w-[30px] mr-3" />
+                            <p class="text-left">Open Time: 10:00AM - 7:00PM</p>
+                        </div>
+                        <a href="tel:0141-358-2638" class="bg-[#E8E8E8] inline-block mt-8 py-2 px-2 text-center rounded-sm">
+                            <span class="text-[16px] text-[#FF7F00] font-bold">Resource Center</span><a href="" class="ml-2 font-bold hover:text-[#FF7F00]">0141-358-2638</a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[1600px] p-5 mx-auto">
+                <div class="border-t border-t-[#000]">
+                    <div class="container mx-auto items-center py-6 flex flex-wrap flex-col sm:flex-row">
+                        <p class="text-black text-sm text-center sm:text-left">© 2021 Design Dunia All rights reserved</p>
+                        <span class="inline-flex items-center gap-3 sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                            <a class="" href="">
+                                <img src="images/footer-icon/paypal_PNG4.png" class="w-[60px]" />
+                            </a>
+                            <a class="" href="">
+                                <img src="images/footer-icon/MasterCard_early_1990s_logo.png" class="w-[60px]" />
+                            </a>
+                            <a class="" href="">
+                                <img src="images/footer-icon/Visa_Logo.png" class="w-[60px]" />
+                            </a>
+                            <a class="" href="">
+                                <img src="images/footer-icon/American-Express-PNG-Image.png" class="w-[60px]" />
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer section start -->
+
+        <!-- important js links here -->
+        <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <!-- important js links here end -->
+    </body>
+    <!-- End bofy tag -->
+</html>
